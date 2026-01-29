@@ -1,0 +1,6 @@
+{
+  "name": "Алексей",
+  "age": 12,
+  "is_student": true,
+  "test_null": null
+}
