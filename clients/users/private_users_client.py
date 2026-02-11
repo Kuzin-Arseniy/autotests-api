@@ -1,6 +1,7 @@
 from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
+from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
 
 
 class UpdateUserRequestDict(TypedDict):
@@ -11,6 +12,24 @@ class UpdateUserRequestDict(TypedDict):
     lastName: str | None
     firstName: str | None
     middleName: str | None
+
+
+class User(TypedDict):
+    """
+    Описание структуры пользователя
+    """
+    id: str
+    email: str
+    firstName: str
+    lastName: str
+    middleName: str
+
+
+class GetUserResponseDict(TypedDict):
+    """
+    Описание структуры ответа с данными пользователя
+    """
+    user: User
 
 
 class PrivateUsersClient(APIClient):
@@ -33,6 +52,10 @@ class PrivateUsersClient(APIClient):
         """
         return self.get(f"api/v1/users/{user_id}")
 
+    def get_user(self, user_id: str) -> GetUserResponseDict:
+        response = self.get_user_api(user_id)
+        return response.json()
+
     def update_user_api(self, user_id: str, request: UpdateUserRequestDict) -> Response:
         """
         Метод частично обновляет информацию о клиенте
@@ -49,3 +72,12 @@ class PrivateUsersClient(APIClient):
         :return: Объект Response с данными ответа.
         """
         return self.get(f"api/v1/users/{user_id}")
+
+
+# Добавляем builder для PrivateUsersClient
+def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+    """
+    Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
+    :return: Готовый к использованию PrivateUsersClient.
+    """
+    return PrivateUsersClient(client=get_private_http_client(user))

@@ -2,6 +2,25 @@ from httpx import Response
 from clients.api_client import APIClient
 from typing import TypedDict
 
+from clients.files.files_client import File
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+from clients.users.public_users_client import User
+
+
+# Добавили описание структуры курса
+class Course(TypedDict):
+    """
+    Описание структуры курса.
+    """
+    id: str
+    title: str
+    maxScore: int
+    minScore: int
+    description: str
+    previewFile: File  # Вложенная структура файла
+    estimatedTime: str
+    createdByUser: User  # Вложенная структура пользователя
+
 
 class GetCoursesQueryDict(TypedDict):
     """
@@ -34,6 +53,14 @@ class UpdateCourseQueryDict(TypedDict):
     estimatedTime: str | None
 
 
+# Добавили описание структуры ответа на создание курса
+class CreateCourseResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания курса.
+    """
+    course: Course
+
+
 class CoursesClient(APIClient):
     """
     Клиент для работы с api/v1/courses
@@ -63,6 +90,10 @@ class CoursesClient(APIClient):
         """
         return self.post("/api/v1/courses", json=request)
 
+    def create_course(self, request: CreateCourseQueryDict) -> CreateCourseResponseDict:
+        response = self.create_course_api(request)
+        return response.json()
+
     def update_course_api(self, course_id: str, request: UpdateCourseQueryDict) -> Response:
         """
         Метод обновления данных курса
@@ -79,3 +110,11 @@ class CoursesClient(APIClient):
         :return: Ответ от сревера в виде объекта httpx.Response
         """
         return self.delete(f"/api/v1/courses/{course_id}")
+
+
+def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
+    """
+    Функция создает экземпляр CoursesClient с уже настроенным HTTP-клиентом
+    :return: Готовый к использованию CoursesClient
+    """
+    return CoursesClient(client=get_private_http_client(user))
