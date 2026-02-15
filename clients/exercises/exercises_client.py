@@ -30,7 +30,7 @@ class GetExerciseResponseDict(TypedDict):
     """
     Описание структуры ответа с данными по заданию
     """
-    exercises: Exercise
+    exercise: Exercise
 
 
 class GetExercisesQueryDict(TypedDict):
@@ -92,7 +92,7 @@ class ExercisesClient(APIClient):
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseDict:
         response = self.get_exercise_api(exercise_id)
-        return response.json().get("exercise")
+        return response.json()
 
     def create_exercise_api(self, request: CreateExerciseRequestDict) -> Response:
         """
