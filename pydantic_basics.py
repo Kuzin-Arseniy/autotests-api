@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field, ConfigDict, computed_field, HttpUrl, EmailStr, ValidationError
 # from pydantic.alias_generators import to_camel
 import uuid
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class FileSchema(BaseModel):
@@ -13,7 +13,7 @@ class FileSchema(BaseModel):
 
 class UserSchema(BaseModel):
     id: str = "222"
-    email: EmailStr = get_random_email()
+    email: EmailStr = fake.email()
     last_name: str = Field(alias="lastName", default="Name")
     first_name: str = Field(alias="firstName", default="Pain")
     middle_name: str = Field(alias="middleName", default="Stay")
