@@ -1,11 +1,14 @@
 from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema, CreateUserResponseSchema
 from http import HTTPStatus
+import pytest
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.base import assert_status_code
 from tools.assertions.users import assert_create_user_response
 
 
+@pytest.mark.users
+@pytest.mark.regression
 def test_create_user():
     """
     Автотест на создание пользователя и проверку статус кода ответа на запрос create_user_api
