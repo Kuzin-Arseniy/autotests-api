@@ -38,7 +38,7 @@ def function_user(public_user_client: PublicUsersClient) -> UserFixture:
 
 
 @pytest.fixture
-def private_user_client(function_user) -> PrivateUsersClient:
+def private_user_client(function_user: UserFixture) -> PrivateUsersClient:
     """
     Фикстура для настройки PrivateUsersClient
     :param function_user: фикстура, из которой берем данные для аутентификации через свойство authentication_user
