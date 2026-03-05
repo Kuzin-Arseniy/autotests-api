@@ -5,7 +5,7 @@ from clients.files.files_client import FilesClient, get_files_client
 from fixtures.users import UserFixture
 
 
-class FileFixtures(BaseModel):
+class FileFixture(BaseModel):
     request: CreateFileRequestSchema
     response: CreateFileResponseSchema
 
@@ -14,7 +14,7 @@ def file_client(function_user: UserFixture) -> FilesClient:
     return get_files_client(function_user.authentication_user)
 
 @pytest.fixture
-def function_file(file_client: FilesClient) -> FileFixtures:
+def function_file(file_client: FilesClient) -> FileFixture:
     request = CreateFileRequestSchema(upload_file="./testdata/files/test_image.png")
     response = file_client.create_file(request)
-    return FileFixtures(request=request, response=response)
+    return FileFixture(request=request, response=response)

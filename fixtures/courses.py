@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from clients.courses.courses_schema import CreateCourseRequestSchema, CreateCourseResponseSchema
 from clients.courses.courses_client import CoursesClient, get_courses_client
 from fixtures.users import UserFixture
-from fixtures.files import FileFixtures
+from fixtures.files import FileFixture
 
 
 class CoursesFixtures(BaseModel):
@@ -19,7 +19,7 @@ def courses_client(function_user: UserFixture) -> CoursesClient:
 @pytest.fixture
 def function_course(
         function_user: UserFixture,
-        function_file: FileFixtures,
+        function_file: FileFixture,
         courses_client: CoursesClient
 ) -> CoursesFixtures:
     request = CreateCourseRequestSchema(
