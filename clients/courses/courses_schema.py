@@ -30,7 +30,7 @@ class GetCoursesQuerySchema(BaseModel):
 
 class GetCoursesQueryResponseSchema(BaseModel):
     """
-    Описание структуры ответа на GET-запрос по query параметру
+    Описание структуры ответа на получение списка курсов.
     """
     courses: list[CourseSchema]
 
