@@ -18,7 +18,6 @@ def exercises_client(function_user: UserFixture) -> ExercisesClient:
 
 @pytest.fixture
 def function_exercise(
-        function_user: UserFixture,
         function_course: CoursesFixtures,
         exercises_client: ExercisesClient
 ) -> ExerciseFixture:
