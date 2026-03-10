@@ -1,5 +1,7 @@
 from http import HTTPStatus
 import pytest
+
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     GetExerciseResponseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema
@@ -7,7 +9,7 @@ from fixtures.courses import CoursesFixtures
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response
+    assert_update_exercise_response, assert_exercise_not_found_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -62,3 +64,21 @@ class TestExercises:
 
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_delete_exercise(self, function_exercise: ExerciseFixture, exercises_client: ExercisesClient):
+        # Отправляем запрос на удаление задания
+        delete_response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
+        # Проверяем статус-код ответа
+        assert_status_code(delete_response.status_code, HTTPStatus.OK)
+
+        # Отправляем запрос на получение удаленного задания, ожидая ошибку
+        get_response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
+        # Преобразуем JSON-ответ в объект схемы, для дальнейшей валидации JSON-схемы
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+        # Проверяем, что сервер вернул 404 Not Found
+        assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
+        # Проверяем, что ответ содержит "Exercise not found"
+        assert_exercise_not_found_response(get_response_data)
+
+        # Валидируем JSON-схему ответа
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
