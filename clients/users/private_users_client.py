@@ -1,5 +1,6 @@
 from clients.api_client import APIClient
 from httpx import Response
+import allure
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.users.user_schema import GetUserResponseSchema, UpdateUserRequestSchema
 
@@ -9,13 +10,15 @@ class PrivateUsersClient(APIClient):
     Клиент для работы с /api/v1/users
     """
 
+    @allure.step("Get user me")
     def get_user_me_api(self) -> Response:
         """
-        Метод получает информацию о клиенте на основе переданного токена в загаловке запроса
+        Метод получает информацию о клиенте на основе переданного токена в заголовке запроса
         :return: Объект Response с данными ответа.
         """
         return self.get("api/v1/users/me")
 
+    @allure.step("Get user by {user_id}")
     def get_user_api(self, user_id: str) -> Response:
         """
         Метод получает информацию о клиенте на основе переданного user_id
@@ -28,6 +31,7 @@ class PrivateUsersClient(APIClient):
         response = self.get_user_api(user_id)
         return GetUserResponseSchema.model_validate_json(response.text)
 
+    @allure.step("Update user by {user_id}")
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод частично обновляет информацию о клиенте
@@ -37,6 +41,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.patch(f"api/v1/users/{user_id}", json=request.model_dump(by_alias=True))
 
+    @allure.step("Delete user by {user_id}")
     def delete_user_api(self, user_id: str) -> Response:
         """
         Метод удаляет информацию о клиенте на основе переданного user_id
