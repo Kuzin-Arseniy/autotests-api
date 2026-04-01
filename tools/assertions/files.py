@@ -2,6 +2,7 @@ from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponse
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, \
     GetFileResponseSchema
 from tools.assertions.base import assert_equal
+from config import settings
 import httpx
 import allure
 from tools.assertions.errors import assert_validation_error_response
@@ -17,7 +18,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     # Формируем ожидаемую ссылку на загруженный файл
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
 
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")

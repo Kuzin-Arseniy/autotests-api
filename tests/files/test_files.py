@@ -4,6 +4,7 @@ import allure
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema
+from config import settings
 from fixtures.files import FileFixture
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
@@ -32,16 +33,16 @@ class TestFiles:
     @allure.title("Create file")
     @allure.severity(Severity.BLOCKER)
     def test_create_file(self, file_client: FilesClient):
-        request = CreateFileRequestSchema(upload_file="./testdata/files/test_image.png")
+        request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
         # Отправляем запрос
         response = file_client.create_file_api(request)
         response_data = CreateFileResponseSchema.model_validate_json(response.text)
         # Проверяем статус-код ответа на запрос по методу create_file_api
         assert_status_code(response.status_code, HTTPStatus.OK)
-        # Првоеряем данные ответа
+        # Проверяем данные ответа
         assert_create_file_response(request, response_data)
         # Проверяем, что файл создан и доступен на сервере
-        expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+        expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
         assert_file_is_accessible(expected_url)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
@@ -68,7 +69,7 @@ class TestFiles:
     def test_create_file_with_empty_filename(self, file_client: FilesClient):
         request = CreateFileRequestSchema(
             filename="",
-            upload_file="./testdata/files/test_image.png"
+            upload_file=settings.test_data.image_png_file
         )
         response = file_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
@@ -89,7 +90,7 @@ class TestFiles:
     def test_create_file_with_empty_directory(self, file_client: FilesClient):
         request = CreateFileRequestSchema(
             directory="",
-            upload_file="./testdata/files/test_image.png"
+            upload_file=settings.test_data.image_png_file
         )
         response = file_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
@@ -139,5 +140,5 @@ class TestFiles:
 
         # Проверяем тело ответа
         assert_get_file_with_incorrect_file_id_response(get_response_data)
-        # Првоеряем структуру ответа на соответсвтие ожидаемой JSON-схеме
+        # Проверяем структуру ответа на соответствие ожидаемой JSON-схеме
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
