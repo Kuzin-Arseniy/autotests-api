@@ -21,8 +21,8 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
         env_nested_delimiter="."
     )
-
     test_data: TestDataConfig
     http_client: HTTPClientConfig
+
 
 settings = Settings()
