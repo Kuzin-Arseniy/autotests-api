@@ -1,6 +1,7 @@
 from clients.api_client import APIClient
 from httpx import Response
 import allure
+from tools.routes import APIRoutes
 from clients.authentication.authentication_schema import (LoginRequestSchema, LoginResponseSchema,
                                                           RefreshTokenRequestSchema)
 
@@ -21,7 +22,7 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/login",
+        return self.post(f"{APIRoutes.AUTHENTICATION}/login",
                          # Сериализуем модель в словарь с использованием alias
                          json=request.model_dump(by_alias=True))
 
@@ -34,7 +35,7 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/refresh",
+        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh",
                          # Сериализуем модель в словарь с использованием alias
                          json=request.model_dump(by_alias=True))
 

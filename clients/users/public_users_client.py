@@ -1,5 +1,5 @@
 import allure
-
+from tools.routes import APIRoutes
 from clients.api_client import APIClient
 from httpx import Response
 from clients.users.user_schema import CreateUserRequestSchema, CreateUserResponseSchema
@@ -20,7 +20,7 @@ class PublicUsersClient(APIClient):
         :param request: Словарь с email, password, firstName, lastName, middleName
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
+        return self.post(APIRoutes.USERS, json=request.model_dump(by_alias=True))
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
