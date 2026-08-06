@@ -18,7 +18,7 @@ jobs:
     steps:
       #1. Шаг, который будет клонировать ваш репозиторий на машину GitHub Actions
       - name: Check out repository
-        uses: actions/checkout@v6 # Используем GitHub Action для клонирования репозитория
+        uses: actions/checkout@v7 # Используем GitHub Action для клонирования репозитория
 
       # 2. Шаг для установки Python на виртуальной машине
       - name: Set up Python
@@ -57,8 +57,8 @@ jobs:
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v6 # Опять клонируем репозиторий, чтобы получить историю отчётов
-        if: always() # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
+        uses: actions/checkout@v7 # Опять клонируем репозиторий, чтобы получить историю отчётов
+        if: always() # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов.
         continue-on-error: true # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
           ref: gh-pages # Указываем ветку gh-pages для получения отчётов
