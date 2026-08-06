@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjA4OjU0LjgzNzE2OCIsInVzZXJfaWQiOiIyNDg5NTMxMy04YjI5LTRiYTAtYmU3Ny05ODBiZjAwMDlhZGQifQ.gh7c8022xDXPnw0HL4DIMN5AHuJl_emvAqYliW0Pqyo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn relate policy sea technology agent test.","maxScore":88,"minScore":20,"description":"Hard physical loss character film kitchen happy. Movement discussion practice market rather race those. Range under happen which what region.","estimatedTime":"2 weeks","previewFileId":"1e46f7ef-f277-4804-b45f-80d1046aaf60","createdByUserId":"24895313-8b29-4ba0-be77-980bf0009add"}'

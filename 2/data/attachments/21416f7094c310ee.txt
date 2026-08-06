@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjA4OjU0LjE0NjYxNSIsInVzZXJfaWQiOiI1NWE2MGI0MS0zN2UyLTQ3YTgtODAyYi1lNDg1ZWIwM2M0MDUifQ.Pd_t7u33o6diiDqRcAuEIRqj1IGkfELqsB7HjhAU47o' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough air keep environment.","maxScore":80,"minScore":15,"description":"Listen successful attention necessary what. Within so down social bag society.\nSecurity with star animal would less push. Nation player eye authority.","estimatedTime":"8 weeks","previewFileId":"22aac273-2938-4442-8b51-bd1a0f469d50","createdByUserId":"55a60b41-37e2-47a8-802b-e485eb03c405"}'

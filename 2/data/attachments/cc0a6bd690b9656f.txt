@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjA4OjUzLjQ5MTY0MyIsInVzZXJfaWQiOiJlZjEyODM2ZC1mY2U2LTQ0ZTctODdiNy0xYTg5ZWRmNDQ0YjcifQ.7psDXNK6QArhQOsfMzjnPEbnHxwp-ouJV-o1PP4y9Eo' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although daughter way other second wife those establish.","courseId":"bc77fd61-60c5-44ea-940c-7aaa067201d2","maxScore":81,"minScore":4,"orderIndex":20,"description":"Save establish blood station standard. Threat culture town support. Church year very claim nor smile.\nOf specific list. Read court manager big water fill receive. Anything nothing pattern read stuff.","estimatedTime":"3 weeks"}'

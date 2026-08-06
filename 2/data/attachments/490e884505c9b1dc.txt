@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjA4OjU1LjU2NjgzNCIsInVzZXJfaWQiOiJhNzA1OGIwMi01NmUxLTQxZTgtOTYyZC0yNDE3ZWIzOTcwMzUifQ.erjfrovjjEpRCEyy2M1hZ1mRQ-1-rycL7A7HvnMH4qk' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat fine box.","courseId":"cac49e8e-bec2-45b3-8a7d-ab06b5d11af6","maxScore":81,"minScore":18,"orderIndex":21,"description":"Your bar around both both point. Season institution inside clear fight identify. Interview baby war nor matter fine.\nNetwork easy system onto tough.","estimatedTime":"9 weeks"}'

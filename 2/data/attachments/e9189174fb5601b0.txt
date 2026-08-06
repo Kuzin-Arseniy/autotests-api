@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/c2a8e933-e4c4-4be8-bbb3-4af1bb57142a
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/c2a8e933-e4c4-4be8-bbb3-4af1bb57142a
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to c2a8e933-e4c4-4be8-bbb3-4af1bb57142a
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Listen less big choice.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to a23e309a-9fbd-4349-a94c-766ecd639bf7
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 69
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Guy food heart always former natural.
+Worker parent final music single industry. American leg picture. Natural board bring half low up their.
+Choose need follow.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
