@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE0OjU5OjAyLjg3NTA5MyIsInVzZXJfaWQiOiJlYzBlYjEyNC1mOWVmLTQyYmEtYTY5OC1kNGQwZGZjMTU1NTkifQ.YtpYo89RYS7mi1qwuOfexptx3K5ipxoA8iekmP4E8b0' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fill part writer woman Congress develop.","maxScore":73,"minScore":8,"description":"Power thing food others series ago. Weight option everything democratic expect high spring fear.\nEye care top. Front pick let bring now.","estimatedTime":"8 weeks","previewFileId":"2c6a396d-82fe-4ee9-baba-b775a87e52a9","createdByUserId":"ec0eb124-f9ef-42ba-a698-d4d0dfc15559"}'

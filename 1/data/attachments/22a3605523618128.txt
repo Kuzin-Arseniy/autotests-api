@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cfe113b7-136a-4f2e-9e4f-8369fd8c1311' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE0OjU4OjU5LjU5ODk0MyIsInVzZXJfaWQiOiI0MjJjZTZlYi0zMjg1LTRmMGItYjBhMS1kZmM3M2RmYjQ2OWYifQ.dzmYM3UfqZ8IukCB36WFdCQ9H0nQDbsz7U7lvYoefpc' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help pay free financial hour role man.","maxScore":95,"minScore":13,"description":"First stuff chair mother property mouth. Hand happen record build. Price thing bed sing help represent.\nEasy thought me do ground reality. Boy shake top western kid.","estimatedTime":"8 weeks"}'

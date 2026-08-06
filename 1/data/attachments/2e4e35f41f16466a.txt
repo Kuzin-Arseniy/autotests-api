@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE0OjU4OjU5LjU5ODk0MyIsInVzZXJfaWQiOiI0MjJjZTZlYi0zMjg1LTRmMGItYjBhMS1kZmM3M2RmYjQ2OWYifQ.dzmYM3UfqZ8IukCB36WFdCQ9H0nQDbsz7U7lvYoefpc' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin foot network final effort glass.","maxScore":80,"minScore":29,"description":"Main possible party wall food common never. Close issue however difficult.\nDebate growth environment able rich. Head we like agreement hear dog door.","estimatedTime":"10 weeks","previewFileId":"fd90e8fe-f178-49d9-894a-1913c08d2bef","createdByUserId":"422ce6eb-3285-4f0b-b0a1-dfc73dfb469f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE0OjU5OjAzLjQ2MzM1NCIsInVzZXJfaWQiOiI4YmUwNTUwOC03MTgxLTRkMmQtODczZC0wYTNhZTJkZDcyMzUifQ.ewc9dRB_FHeT-V3MtRyQUefbSb4HGdqo75oU-djwx7Y' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent industry well open room reveal occur.","courseId":"87c33f4b-692e-4000-89d7-1e6656ea6808","maxScore":93,"minScore":28,"orderIndex":15,"description":"Agent hard high teach could. Share operation option most customer option only. Red sister player school.\nNorth beat have reach. Account significant firm hit two stand continue million.","estimatedTime":"9 weeks"}'
