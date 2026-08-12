@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE1Ljg4NjU4OCIsInVzZXJfaWQiOiI0MjQzZmY0ZS02ODAyLTRhMGYtOTQxMi1lN2ZiMzRkYWZmZDgifQ.ApbwkfnSqCAAgVSsE5tEVx6fZJ4i1MACfG_ck5jIYRs' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Near mission site once after cold.","courseId":"c611ef86-a917-4086-aa18-32aa6e304e4f","maxScore":69,"minScore":18,"orderIndex":9,"description":"Individual attack loss. Way long TV note anything.\nAlthough conference rate act company. These data cell reach ten.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjExLjk4ODk1MSIsInVzZXJfaWQiOiI0NmNiY2Q1ZS1mYzBjLTQwZmItYTBhYi1kODk1N2RiMjdlZGQifQ.y9Ct77ahuGwuorthoVyJKUr-ScMAYLrbwcCAFMDa9fc' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News take what wall.","maxScore":86,"minScore":22,"description":"Unit Mr professional. Industry really than program amount see knowledge third.\nEveryone for of since member. Raise foreign for although special law stop.","estimatedTime":"3 weeks","previewFileId":"63d52938-28d3-4090-a0ea-d2cca8ff8cb1","createdByUserId":"46cbcd5e-fc0c-40fb-a0ab-d8957db27edd"}'

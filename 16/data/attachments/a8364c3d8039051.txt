@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE1Ljg4NjU4OCIsInVzZXJfaWQiOiI0MjQzZmY0ZS02ODAyLTRhMGYtOTQxMi1lN2ZiMzRkYWZmZDgifQ.ApbwkfnSqCAAgVSsE5tEVx6fZJ4i1MACfG_ck5jIYRs' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall language near impact wall drive often.","maxScore":57,"minScore":16,"description":"Senior material success raise area use network.\nHer course benefit study series owner cold make. Measure site art city. Reveal girl foreign ready.","estimatedTime":"8 weeks","previewFileId":"f223e4b6-a79b-44ee-a7f1-83b5780ed069","createdByUserId":"4243ff4e-6802-4a0f-9412-e7fb34daffd8"}'

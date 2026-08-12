@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE2LjQ2NTgxNyIsInVzZXJfaWQiOiIyMzc2YTYwMy02YWU3LTRjNmQtYTI4Mi0zMzVjZDBjYzg2MWIifQ._g3i4Fxc_4oslKQpJ_YadwfufiBVEXf3vmqqwKGKk0s' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought school smile once although wide.","maxScore":94,"minScore":17,"description":"Course sound service fine threat can. Understand against talk itself need. Feeling draw dog left anyone here owner.","estimatedTime":"10 weeks","previewFileId":"5bc1ec1c-6988-4f4f-809a-b8d294793439","createdByUserId":"2376a603-6ae7-4c6d-a282-335cd0cc861b"}'

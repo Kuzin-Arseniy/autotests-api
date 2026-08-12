@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE0LjA1Mzc3MSIsInVzZXJfaWQiOiJjZjg0MmEyMy01MTY1LTQ5OGEtOWY1YS0yZGY4NDgyNmMxMDMifQ.VgfS8ZyhzmzK-xtLeiIAdtFxp4SRkNHlk0ugEo6c2Wg' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate their light.","maxScore":99,"minScore":25,"description":"Hand that case own common. Professor very subject remain respond.\nSocial particular responsibility. Feel never friend dinner test.","estimatedTime":"7 weeks","previewFileId":"9c3457fd-e797-4ae7-b137-e0a576125a4f","createdByUserId":"cf842a23-5165-498a-9f5a-2df84826c103"}'

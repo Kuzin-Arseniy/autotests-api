@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjEzLjQ2OTg1OCIsInVzZXJfaWQiOiIzYWQ1ZjczMS1kZjBmLTRiODYtOGFmOC05YzBhN2ExYjY4OTcifQ.13RmRX6FNIemLeqmeCUWn2915RTAdl_S_rK_kgi7Tdg' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon near such particularly task part.","maxScore":54,"minScore":16,"description":"Group nor nor manager head. Our either base whether million account under.","estimatedTime":"3 weeks","previewFileId":"1fc3ac29-856b-4582-a2ad-83c81df3185b","createdByUserId":"3ad5f731-df0f-4b86-8af8-9c0a7a1b6897"}'

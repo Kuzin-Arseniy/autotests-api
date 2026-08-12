@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE1LjIyMTc0OCIsInVzZXJfaWQiOiI1OTU0ZWZhZC1jYjI0LTQ3NjMtOTFiNi1kN2I5OTFmOTJlNGQifQ.mnBNEwZyWzhmmckRMccWLChuxXdi8UAohpZNMNGExos' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One fish more Republican director.","courseId":"a5398ca9-37ee-4cf6-b429-0304ed022a75","maxScore":98,"minScore":4,"orderIndex":47,"description":"Industry factor structure send sense. Water service company skill song girl.","estimatedTime":"1 weeks"}'

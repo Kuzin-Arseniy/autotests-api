@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE0LjY0Mzg1OSIsInVzZXJfaWQiOiJmZjdmZjNhNC0xNzUwLTQ5MDMtYTVhOS04MTVmMzA1YzNiY2IifQ.gThW4qNGSoa81UT7e6z8e_-vFAo3Hhmg9enGG2CbCy4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either traditional task she popular research push.","maxScore":58,"minScore":27,"description":"Wall fall use citizen particular same cultural nature. Piece second drop contain design. Even lay lay sometimes peace school what.","estimatedTime":"10 weeks","previewFileId":"12201302-b9f9-422f-a3af-61f0ebc4cc92","createdByUserId":"ff7ff3a4-1750-4903-a5a9-815f305c3bcb"}'

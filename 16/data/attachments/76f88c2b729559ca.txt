@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjE1LjIyMTc0OCIsInVzZXJfaWQiOiI1OTU0ZWZhZC1jYjI0LTQ3NjMtOTFiNi1kN2I5OTFmOTJlNGQifQ.mnBNEwZyWzhmmckRMccWLChuxXdi8UAohpZNMNGExos' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fill book whatever arm coach.","maxScore":72,"minScore":17,"description":"Reflect know production picture training. Appear walk performance wall.\nGround myself catch degree score.\nOperation memory word across clear recently. Cultural region foreign down.","estimatedTime":"7 weeks","previewFileId":"fedce8f3-7621-4435-a298-63f8a886367c","createdByUserId":"5954efad-cb24-4763-91b6-d7b991f92e4d"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3436e3a5-6ea2-4fb6-811a-b01c29490021' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDE0OjU0OjExLjk4ODk1MSIsInVzZXJfaWQiOiI0NmNiY2Q1ZS1mYzBjLTQwZmItYTBhYi1kODk1N2RiMjdlZGQifQ.y9Ct77ahuGwuorthoVyJKUr-ScMAYLrbwcCAFMDa9fc' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept into woman themselves might many always body.","maxScore":100,"minScore":12,"description":"This day stay range three security firm. Main a explain though personal. Watch one need figure history admit work manager.\nSet player health something more nation. Pm important miss bit people.","estimatedTime":"6 weeks"}'
