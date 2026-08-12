@@ -58,7 +58,7 @@ jobs:
       - name: Upload allure-results
         uses: actions/upload-artifact@v7
         with:
-          name: artifact_allure_results
+          name: allure-results
           path: allure-results
 
   publish-report:
@@ -74,7 +74,7 @@ jobs:
       - name: Download allure-results artifact
         uses: actions/download-artifact@v8
         with:
-          name: artifact_allure_results
+          name: allure-results
           path: allure-results
 
       # 3. Шаг для получения истории отчётов Allure, если она существует
