@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjIzOjQ4LjE4NTEwMyIsInVzZXJfaWQiOiJhZGYxMTYxZC02MmY4LTQ1ZDgtODJiYy01NjkyYzA1YzFhNWIifQ.mPckQSyO3a-B_7ySs5Auj-OBenw8CGrSKerdADa313k' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Appear give born read difference protect begin.","maxScore":79,"minScore":3,"description":"Develop television western write son industry learn. Ask almost defense main. Check not expect eat police either.\nEvidence candidate soldier go response believe. Effect reach organization talk.","estimatedTime":"7 weeks","previewFileId":"018acbc9-2ed4-4753-b1c2-4e2d7c0c56d0","createdByUserId":"adf1161d-62f8-45d8-82bc-5692c05c1a5b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjIzOjQ5Ljk5NzczNCIsInVzZXJfaWQiOiI1MjI5N2EwYy04YzY5LTQ0N2EtYTZlNS0yNGRiYzE1NDkwYWYifQ.HhHXIVSPRyDh10RAGNqZMTK-9PbWwQnysc-hX80glM4' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Close voice company authority affect leg even.","maxScore":73,"minScore":26,"description":"Throughout determine break century manager attack law. Institution far since because investment.\nEdge drive country training institution none. Long fact few few finally.","estimatedTime":"6 weeks","previewFileId":"0e7da2e4-e51e-4e80-bdd0-051f608dcba4","createdByUserId":"52297a0c-8c69-447a-a6e5-24dbc15490af"}'

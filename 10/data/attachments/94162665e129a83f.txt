@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjIzOjQ5LjQwOTM1MCIsInVzZXJfaWQiOiI0ZDgzOTFjYS0zMmQ5LTQ5NmItYTBkYS0wOTY1ZTkyZTFiODkifQ.u905VYqrXuSj_0-zVY9FcytCAFzbT-GwUcjes-On-MA' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State reason politics policy.","maxScore":59,"minScore":9,"description":"Which event fund population. Individual others suggest forget suddenly. Could couple eight require decade risk international practice.","estimatedTime":"1 weeks","previewFileId":"952138b7-d9a4-4426-9cdd-dafc10d8de45","createdByUserId":"4d8391ca-32d9-496b-a0da-0965e92e1b89"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjIzOjQ3LjAwNzg3MyIsInVzZXJfaWQiOiIyZTQwNjY0Mi1mNjNmLTQ3ZjctYWZhYS0yM2IwMDUwOWZmZGYifQ.DzfjO7Ze7u0a0z21DgMkaXpNpK5SnmNecvhVWpzPdNc' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm discover not nearly.","maxScore":90,"minScore":8,"description":"Enjoy watch federal election beyond find news. Likely century set. And as organization international network inside ready.","estimatedTime":"10 weeks","previewFileId":"cf47d429-b209-487a-8607-dd987167115b","createdByUserId":"2e406642-f63f-47f7-afaa-23b00509ffdf"}'

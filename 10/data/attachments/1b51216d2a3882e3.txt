@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjIzOjUwLjY5NjY4NiIsInVzZXJfaWQiOiIyMGU1YzM3NS1kOWZiLTQ5MGQtOTJlNi0xYWZiZjBmNWEyOGUifQ.pm4JqLhm9NM5k2eE0jrAhbnwRE0Yuc8EWEj6pTUH6cg' \
+  -H 'content-length: 448' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview represent positive middle home half important individual.","maxScore":91,"minScore":14,"description":"East food voice leader him enough detail. Really quality range so.\nReturn story dark daughter bar science. Wonder discussion Mr know success. Point tough center every factor bill staff.","estimatedTime":"8 weeks","previewFileId":"f65e3e73-4982-43ad-bf13-320a2640f94b","createdByUserId":"20e5c375-d9fb-490d-92e6-1afbf0f5a28e"}'
