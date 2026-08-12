@@ -58,13 +58,15 @@ jobs:
       - name: Upload allure-results
         uses: actions/upload-artifact@v7
         with:
-          name: allure_results
+          name: artifact_allure_results
+          path: allure-results
 
   publish-report:
     needs: run-tests
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Клонируем репозиторий для работы с историей отчетов
       - name: Check out repository
         uses: actions/checkout@v7
 
@@ -72,7 +74,8 @@ jobs:
       - name: Download allure-results artifact
         uses: actions/download-artifact@v8
         with:
-          name: allure_results
+          name: artifact_allure_results
+          path: allure-results
 
       # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
