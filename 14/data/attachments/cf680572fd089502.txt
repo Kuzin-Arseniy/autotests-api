@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjMwLjQzODE2MiIsInVzZXJfaWQiOiJmYjFjMTkyZS01M2E2LTQ4N2UtODI5OS0yMTExMTE3YzQ2OTQifQ.aJOownV3IgX1u-DB5ICOnCSsxdQFlooUPzbG-jY0NVY' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden defense cell door.","maxScore":70,"minScore":25,"description":"Agreement particular house half this. Some agency station rise.\nTonight up wife smile PM inside itself stop. Brother word visit trial art. Social officer relationship above identify.","estimatedTime":"5 weeks","previewFileId":"4cb9b28f-33a5-4e3d-b7ae-d778c3aeee23","createdByUserId":"fb1c192e-53a6-487e-8299-2111117c4694"}'

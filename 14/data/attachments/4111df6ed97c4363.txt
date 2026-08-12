@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjMwLjQzODE2MiIsInVzZXJfaWQiOiJmYjFjMTkyZS01M2E2LTQ4N2UtODI5OS0yMTExMTE3YzQ2OTQifQ.aJOownV3IgX1u-DB5ICOnCSsxdQFlooUPzbG-jY0NVY' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Force national almost report second husband.","courseId":"63ad61b4-08e1-4f91-ad60-6c26912de5c8","maxScore":64,"minScore":20,"orderIndex":10,"description":"These choose agent population government Republican. Onto nearly get several available thus. Commercial two affect.\nHundred at research discover effect event. Society fine federal reach.","estimatedTime":"2 weeks"}'

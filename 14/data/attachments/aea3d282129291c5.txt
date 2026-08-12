@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjI5LjU0NzYxOCIsInVzZXJfaWQiOiIwMzIzNzQwZC1hOWMxLTQwMjEtYTFmMy00ZDEwMjQ0NDA0M2EifQ.YVbbeIjjXsPnf_MpwlI1BpdSgGZ3x1QGGPaOmZYN3oo' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second continue son lot no name.","maxScore":68,"minScore":6,"description":"Job medical others maintain woman usually get chance. Recognize concern staff time with long.\nPlant new give nor. Capital floor much force father cut. Citizen successful add.","estimatedTime":"9 weeks","previewFileId":"d4d8e706-b2e3-4408-a09b-a6a9c6070936","createdByUserId":"0323740d-a9c1-4021-a1f3-4d102444043a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjMxLjYyODk4NCIsInVzZXJfaWQiOiI1ZGE5ZWZhNy0xNzZlLTQyZjUtYjEyMC04ZTE0YjFlZmJiNTIifQ.2PP3tZXyzZONZB4MF_BzXDqYDAn9gOoM_0rFWjc8pos' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Learn sing city have.","maxScore":93,"minScore":19,"description":"Operation within painting side fish short alone. Actually grow agreement population reason.\nBeat every night voice. Though whole accept knowledge strong begin.","estimatedTime":"6 weeks","previewFileId":"a096805c-7e2f-44d1-8f19-08a19c46ef75","createdByUserId":"5da9efa7-176e-42f5-b120-8e14b1efbb52"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f7594fe8-3eba-430d-8772-3d61d8893880' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjI4LjA2NDYyNCIsInVzZXJfaWQiOiI4ZDRkNzU4MC0yZTU0LTRlMzctYmU0Mi1iODBlZWNmNGM1ZTQifQ.MXlhipUtGqPm6Cb6mSZKzaAzsZRq-GuRthVdP4lBoRo' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International best rate stand technology.","maxScore":54,"minScore":27,"description":"Over minute expect course.\nSouthern site report strategy member. Late change find site.\nTreatment guess future. Budget role red up above near.","estimatedTime":"9 weeks"}'

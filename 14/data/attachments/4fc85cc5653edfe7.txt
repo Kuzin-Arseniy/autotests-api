@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjI4LjA2NDYyNCIsInVzZXJfaWQiOiI4ZDRkNzU4MC0yZTU0LTRlMzctYmU0Mi1iODBlZWNmNGM1ZTQifQ.MXlhipUtGqPm6Cb6mSZKzaAzsZRq-GuRthVdP4lBoRo' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine each full more.","maxScore":59,"minScore":17,"description":"Author easy when for. That decide election loss image there happy. My rather news member tonight check.\nImage shake out or dinner all. Culture past set wind or. Collection support at deal.","estimatedTime":"10 weeks","previewFileId":"3d4aa283-dd9f-472e-9f70-4e762723f0c7","createdByUserId":"8d4d7580-2e54-4e37-be42-b80eecf4c5e4"}'

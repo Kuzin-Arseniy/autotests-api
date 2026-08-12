@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjMwLjcxMDgxNCIsInVzZXJfaWQiOiJhOWY0YTVkNy1iNjY2LTQ3NTItOThlMi00NzI3ZGM1ZDA1ZTAifQ.MfIrgZDtnFMXlq3u9KpQRESkGAeF7IXAkY_NFtSLFLE' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yeah officer government else girl well magazine former.","maxScore":98,"minScore":10,"description":"Summer hope manage forget. Bank next carry garden. Kind according rest which size oil pass.","estimatedTime":"1 weeks","previewFileId":"d51d24e5-e82c-4101-94f1-96831efb5c8a","createdByUserId":"a9f4a5d7-b666-4752-98e2-4727dc5d05e0"}'

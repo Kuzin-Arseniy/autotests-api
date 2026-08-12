@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ0OjMyLjg0NTgzMiIsInVzZXJfaWQiOiJhOTdiYzFhMC1iZmRkLTQxYWUtODI4My00OWJkNGQ0OGU3ZDcifQ.OJXZSA6HUbsPa52ITd8mtGD3PYO2SVFNuJGL5F2vHbc' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission international open defense better major.","maxScore":82,"minScore":21,"description":"Small run degree set suffer gas note leg. Option bag our fill until church. Operation cause policy decide.","estimatedTime":"6 weeks","previewFileId":"c95927e0-fb77-4c78-82ca-9b8b98442985","createdByUserId":"a97bc1a0-bfdd-41ae-8283-49bd4d48e7d7"}'
