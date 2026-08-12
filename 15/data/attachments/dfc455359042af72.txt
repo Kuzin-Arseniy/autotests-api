@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjI5LjU1MDg1NiIsInVzZXJfaWQiOiJiZDkyMzY4Ny03YmZkLTQ3ZDMtOGU5MS0zMzU4ZTEwZDY0YjQifQ.-9TMvwez-3kZ2JCl4HT5DWacPVKb31_f4poma_QFkqI' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic start goal partner treatment.","maxScore":56,"minScore":4,"description":"Eat institution building system under head.\nInterest inside religious huge happy color month.\nVisit hit though game pass word.","estimatedTime":"9 weeks","previewFileId":"8a9db631-ebf4-4a7f-93ab-94bfe1e2b635","createdByUserId":"bd923687-7bfd-47d3-8e91-3358e10d64b4"}'

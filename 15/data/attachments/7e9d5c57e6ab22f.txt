@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ecacc3fe-2f29-443d-a980-a4cd023b9860' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjI3Ljg5Nzg4MSIsInVzZXJfaWQiOiI4NzgxMDc5YS0wNTE3LTQ1N2UtOTMyMS1lYzU4MDZiMmI5ODkifQ.0bx7IhGGk3Uu-hA7ssnrZO8gEAcw1O2aJf00ub4eRHY' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man think voice would.","maxScore":81,"minScore":5,"description":"Democratic trip deal far want hot painting. Something treat over cost. Since find really can huge. Along particular everything spring position finish.","estimatedTime":"3 weeks"}'

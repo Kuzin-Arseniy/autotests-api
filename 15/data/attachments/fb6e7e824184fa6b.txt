@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjMwLjY1NzcwOCIsInVzZXJfaWQiOiJmODlmNTFjNi1lMzM1LTQ5MTYtOTA1Yi03N2RhNGU4NDNhNzkifQ.yerSPmlUXyVFJVQiCq3klyVU6lRxeDMjIKc0GyJ9dYs' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature soldier city tend relationship low fall.","courseId":"c2009e1c-031a-4aaa-a49d-48ca67b636e6","maxScore":70,"minScore":17,"orderIndex":72,"description":"Reduce player hit easy radio bring. Teacher never discussion five perhaps.\nVisit choose gas do. Skill rock firm sense hour step. Especially sing central need drop plant.","estimatedTime":"8 weeks"}'

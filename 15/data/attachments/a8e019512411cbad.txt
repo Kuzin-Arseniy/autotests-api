@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjI5LjI5MTcyNSIsInVzZXJfaWQiOiJkMzc2NmE2MS05ZGZhLTQ5MzgtYmYzMC03ZWE4NWEzYTk4MmYifQ.ZlIKW12OD0gMhXA1QsN5xwJeQteCZ3mUwvpHFnOJ7jU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front push look various.","maxScore":61,"minScore":3,"description":"Piece Mrs finish election power hair painting charge. Education best third. Understand air true letter him cost effort.","estimatedTime":"10 weeks","previewFileId":"808b0730-4355-406e-b1ba-767e389e03dd","createdByUserId":"d3766a61-9dfa-4938-bf30-7ea85a3a982f"}'

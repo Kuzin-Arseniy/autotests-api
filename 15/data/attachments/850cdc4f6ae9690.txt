@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjMwLjY1NzcwOCIsInVzZXJfaWQiOiJmODlmNTFjNi1lMzM1LTQ5MTYtOTA1Yi03N2RhNGU4NDNhNzkifQ.yerSPmlUXyVFJVQiCq3klyVU6lRxeDMjIKc0GyJ9dYs' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large mind action rock sense down loss.","maxScore":90,"minScore":21,"description":"Attention radio space adult near institution store. Eye seven organization final event.\nFly without character without. Speak address instead social let.\nPosition along town expect along.","estimatedTime":"7 weeks","previewFileId":"9e9674b3-d905-4468-ac23-b602c3a7be81","createdByUserId":"f89f51c6-e335-4916-905b-77da4e843a79"}'

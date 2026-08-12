@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjMwLjM5NjkyNiIsInVzZXJfaWQiOiI0ZWRkMWY5NC03MWUyLTRjYzItYWRhZC0wYmYxOTUyZDAxMTgifQ.ghcGaKJPybtCYZqi2UI8uhulj_4cT8QdCHjjdb4KSWM' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A care success weight play fly middle.","maxScore":57,"minScore":3,"description":"Describe maintain land wind so because. Adult see hard purpose prepare money too. Yeah yeah step raise.\nSafe understand have. Man prepare compare young expect cold ago.","estimatedTime":"10 weeks","previewFileId":"926bc0ac-238f-4c59-bbdc-008ed535139c","createdByUserId":"4edd1f94-71e2-4cc2-adad-0bf1952d0118"}'

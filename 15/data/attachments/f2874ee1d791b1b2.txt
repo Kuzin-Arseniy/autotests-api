@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjI4LjQ0OTMwNSIsInVzZXJfaWQiOiI4NmEyNjVkNC04Yjk4LTRjOWQtOGNlOC1mNTAxZDM0ZWVkM2UifQ.vRsGZVW0JkzgB_z3egxO5kMJriK9tC2uh7jQTmVcx64' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge change cell arrive use.","maxScore":91,"minScore":27,"description":"Democratic one learn claim. May should claim high.\nMarriage think visit church under thing. International course treat race coach morning where.","estimatedTime":"3 weeks","previewFileId":"e67f9ceb-b966-460d-90b3-3869cab1d468","createdByUserId":"86a265d4-8b98-4c9d-8ce8-f501d34eed3e"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f1d6c046-b54f-44c9-9d17-edf45d745436' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjMwLjM5NjkyNiIsInVzZXJfaWQiOiI0ZWRkMWY5NC03MWUyLTRjYzItYWRhZC0wYmYxOTUyZDAxMTgifQ.ghcGaKJPybtCYZqi2UI8uhulj_4cT8QdCHjjdb4KSWM' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account per Congress challenge reduce risk weight.","maxScore":72,"minScore":6,"orderIndex":17,"description":"Adult clearly probably look may physical two.\nManage wrong particularly throw big vote. Figure show pattern officer inside explain theory near.","estimatedTime":"5 weeks"}'

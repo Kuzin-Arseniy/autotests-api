@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQ3OjMxLjg0MDQ0MiIsInVzZXJfaWQiOiJjMTA1MWE3Ni1lNGQxLTRhOGYtYjdhMi05ZmE4MjZlNDAwZmQifQ.P_Q3ZUgupl6ZZmbYu2uj53g7hPn7_I9TlXqI4ojYlck' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bed interesting charge picture purpose Mrs.","maxScore":86,"minScore":20,"description":"Huge win source difference. Success cultural whatever actually pay bank check board. Drug discuss nothing though meeting skin far. Item effort president power nice.","estimatedTime":"6 weeks","previewFileId":"773ee9a8-0434-4200-bf25-6c3d2a35362d","createdByUserId":"c1051a76-e4d1-4a8f-b7a2-9fa826e400fd"}'
