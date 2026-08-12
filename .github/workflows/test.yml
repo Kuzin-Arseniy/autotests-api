@@ -69,6 +69,11 @@ jobs:
       # 1. Клонируем репозиторий для работы с историей отчетов
       - name: Check out repository
         uses: actions/checkout@v7
+        if: always() # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов.
+        continue-on-error: true # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
+        with:
+          ref: gh-pages
+          path: gh-pages
 
       # 2. Шаг для получения сгенерированного отчета allure после выполнения тестов
       - name: Download allure-results artifact
@@ -77,16 +82,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-      # 3. Шаг для получения истории отчётов Allure, если она существует
-      - name: Get Allure history
-        uses: actions/checkout@v7 # Опять клонируем репозиторий, чтобы получить историю отчётов
-        if: always() # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов.
-        continue-on-error: true # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
-        with:
-          ref: gh-pages # Указываем ветку gh-pages для получения отчётов
-          path: gh-pages # Указываем путь для сохранения отчётов
-
-      # 4. Шаг для генерации и отображения отчёта Allure
+      # 3. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.15 # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always() # Этот шаг тоже всегда выполняется
@@ -94,7 +90,7 @@ jobs:
           allure_results: allure-results # Указываем каталог с результатами тестов
           allure_history: allure-history # Указываем каталог для истории отчётов Allure
 
-      # 5. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 4. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4 # Используем GitHub Action для публикации отчёта на GitHub Pages
