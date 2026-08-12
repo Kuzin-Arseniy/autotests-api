@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: artefact_allure_results
-          path: allure_results.txt
+          path: allure-results
 
   publish-report:
     needs: run-tests
