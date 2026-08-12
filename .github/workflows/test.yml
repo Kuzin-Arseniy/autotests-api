@@ -58,8 +58,8 @@ jobs:
       - name: Upload allure-results for job "run-tests"
         uses: actions/upload-artifact@v7
         with:
-          name: artefact_allure_results
-          path: gh-pages
+          name: allure-results
+          path: allure-results
 
   publish-report:
     needs: run-tests
@@ -67,11 +67,11 @@ jobs:
 
     steps:
       # 1. Шаг для получения сгенерированного отчета allure после выполнения тестов
-      - name: Download allure-results from job "run-tests"
+      - name: Download allure-results artifact
         uses: actions/download-artifact@v8
         with:
-          name: artefact_allure_results
-          path: gh-pages
+          name: allure-results
+          path: allure-results
 
       # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
