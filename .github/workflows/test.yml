@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: artefact_allure_results
-          path: gh-pages
+          path: allure-results
 
   publish-report:
     needs: run-tests
@@ -71,6 +71,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: artefact_allure_results
+          path: allure-results
 
       # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
