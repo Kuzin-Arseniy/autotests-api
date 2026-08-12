@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjA4LjMxNDcyNiIsInVzZXJfaWQiOiIyZThiNjYwOS1kODIwLTQ0YzMtOTA3OC04NDA3OWE0MDgwZjUifQ.UJfv0ADhgpFawR4v69Cm3ajO3VqEMui_v_0_S2fDWXo' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency science our senior.","maxScore":63,"minScore":12,"description":"Another fill sea or allow character. Administration beautiful if happy recently involve. Debate writer front item moment. Oil current message attorney would leave vote.","estimatedTime":"10 weeks","previewFileId":"c8d92157-2608-48b3-aafc-17b54c74b512","createdByUserId":"2e8b6609-d820-44c3-9078-84079a4080f5"}'

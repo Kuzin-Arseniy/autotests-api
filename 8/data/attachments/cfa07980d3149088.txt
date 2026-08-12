@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjEwLjM3NzIxNCIsInVzZXJfaWQiOiI5OGNjNjFjNi0wYzY4LTQwNTMtOGZhNC0zZjBkNWE4ODc5NzEifQ.I54-UUO05Lz7w7P18qLSgfK66DXAWx9grjlecrRmHJQ' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement attorney certainly.","maxScore":51,"minScore":6,"description":"Represent voice character rise father close. As scene appear physical protect responsibility.\nPiece fact too career.","estimatedTime":"10 weeks","previewFileId":"c8a354c8-79ca-4342-ab50-08e8e3e26543","createdByUserId":"98cc61c6-0c68-4053-8fa4-3f0d5a887971"}'

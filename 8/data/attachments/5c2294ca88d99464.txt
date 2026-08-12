@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2d8f0dbf-8dd5-436a-bff5-32af5eb68d11' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjA4LjMxNDcyNiIsInVzZXJfaWQiOiIyZThiNjYwOS1kODIwLTQ0YzMtOTA3OC04NDA3OWE0MDgwZjUifQ.UJfv0ADhgpFawR4v69Cm3ajO3VqEMui_v_0_S2fDWXo' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real how pay exist.","maxScore":81,"minScore":10,"description":"Who choose national. Weight focus mouth chair. Already thought table must.\nAddress first happen season. Minute make left artist whose whether daughter.","estimatedTime":"2 weeks"}'

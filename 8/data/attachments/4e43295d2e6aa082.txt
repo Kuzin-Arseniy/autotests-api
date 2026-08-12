@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjA5LjIwOTk4NSIsInVzZXJfaWQiOiIzZWFjZGQwOC00MzJkLTRiMDgtYjRmYi03MmQ3NzJmNmY4NDQifQ.UdLCv5ujigO7uAF_rppqZNmzxWDjA4VPrqSnjBT3V9M' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific own seven possible bill.","maxScore":84,"minScore":20,"description":"Field have thank some put too. Watch challenge color eight power. Miss physical specific music.","estimatedTime":"2 weeks","previewFileId":"d3fabab7-bbf8-48b8-9599-f63a2682d1ff","createdByUserId":"3eacdd08-432d-4b08-b4fb-72d772f6f844"}'

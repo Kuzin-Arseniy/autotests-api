@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjA5Ljc5NjEyOCIsInVzZXJfaWQiOiIxZmQ3YTgxZC05NWZlLTRmYzMtOGZjYy1hZjNmZmRmNTQxMWUifQ.YmwR-DURdpjm6S2IYDbgPrccHEn5aQLW91eotG-T3x0' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What peace raise campaign compare quickly big learn.","maxScore":59,"minScore":11,"description":"Pull reason mouth owner political key morning. Western represent make technology especially own building.","estimatedTime":"5 weeks","previewFileId":"479fbf1e-678e-4953-8982-8736759fb7cf","createdByUserId":"1fd7a81d-95fe-4fc3-8fcc-af3ffdf5411e"}'

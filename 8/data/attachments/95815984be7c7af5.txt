@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjExLjU4NjcwNSIsInVzZXJfaWQiOiJiYWVkNDg2NS0wOWI5LTQ5ZjktOGE4Ni05MWU3ODNkMzE5N2YifQ.Squw76kjMmZcyCCcC9YIPDmvQD83cQGDBC26NN7xgd4' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose ten detail professor must cost wear.","maxScore":60,"minScore":13,"description":"Some tend concern me military blue.\nImportant bill national security member need. Whether study never.","estimatedTime":"6 weeks","previewFileId":"35708175-2109-474b-a95e-1f5f125adbd3","createdByUserId":"baed4865-09b9-49f9-8a86-91e783d3197f"}'

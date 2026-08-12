@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjEyLjE5ODQyNiIsInVzZXJfaWQiOiI2ZGUzMDBkNC1hNTNiLTQ4Y2EtOWE5ZS03YWY2NjM5YzU1ZjcifQ._9-7ynjqUSEhd0sBi86OdelAiPPKLNlDKbDQuU-6Cbc' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason indicate college.","maxScore":73,"minScore":6,"description":"Material poor avoid production five whether very. Population medical test by information great radio oil.\nFriend leader human notice. Point left economic modern. Brother individual risk particular.","estimatedTime":"1 weeks","previewFileId":"5d6507d4-5810-4d42-bc13-45bf87eff563","createdByUserId":"6de300d4-a53b-48ca-9a9e-7af6639c55f7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjEyLjgzMzQ5OCIsInVzZXJfaWQiOiI5OWZiNzM2ZS00M2FmLTQ2NDctYmRlZS03NWE2Nzc2OTVkOTIifQ.VevMNBEaacOoUPigsyF05QtWlCXvIAZ-4cOEGNJyTVY' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score between win.","maxScore":60,"minScore":9,"description":"Carry person enter affect trouble everything. Set sometimes quickly culture country. Work need what national create difficult available investment.","estimatedTime":"4 weeks","previewFileId":"d890fac2-1a43-4851-8261-baff6db7aa64","createdByUserId":"99fb736e-43af-4647-bdee-75a677695d92"}'

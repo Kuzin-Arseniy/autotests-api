@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjA3OjExLjU4NjcwNSIsInVzZXJfaWQiOiJiYWVkNDg2NS0wOWI5LTQ5ZjktOGE4Ni05MWU3ODNkMzE5N2YifQ.Squw76kjMmZcyCCcC9YIPDmvQD83cQGDBC26NN7xgd4' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put sell focus operation.","courseId":"df278b35-c10f-484c-a9c2-1e8deba30bcb","maxScore":53,"minScore":28,"orderIndex":35,"description":"Consider record close he candidate else cut blue. Rich person when whatever win land into. Agreement great edge capital.","estimatedTime":"3 weeks"}'
