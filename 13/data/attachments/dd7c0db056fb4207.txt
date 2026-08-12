@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=83926a15-b21e-46b3-a3e4-00cf6b07cfea
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=83926a15-b21e-46b3-a3e4-00cf6b07cfea
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:118 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of "exercise" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 93697513-ea73-4ec4-90a9-d23f1388ded0
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Above throughout true number sure.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 83926a15-b21e-46b3-a3e4-00cf6b07cfea
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 44
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Within think huge fire. Sense light save discussion almost on low.
+Must father protect during. Parent usually benefit industry.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

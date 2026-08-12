@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI1LjMyODU3NiIsInVzZXJfaWQiOiI5ZjFmMmU3Ni0yMmM1LTRlM2EtOWViZC1jMDUzNzYyN2FiNDUifQ.vRLQkPO6cI4g0TOwO_bB7uIB-kRxMdqP5DRuN9Aa63o' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That investment foreign challenge risk drop guess add.","maxScore":54,"minScore":21,"description":"Allow report interesting tree easy yet write. Fly light where generation determine. Seat open rich life begin.\nArticle girl statement pattern staff pressure rate.","estimatedTime":"10 weeks","previewFileId":"0edfd7f3-4e73-4265-8db7-74bcd88e9156","createdByUserId":"9f1f2e76-22c5-4e3a-9ebd-c0537627ab45"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjIzLjk5MTg3MiIsInVzZXJfaWQiOiI2NDI3ZTdmMS1mODg1LTQwMmQtOWVkNi1jM2ZjNzk0MTBjZDgifQ.cHl4ghBMNGjU2Y8d4tW3Wx6NBiwVLLjwhW3tMxLyg9g' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural safe wear toward.","maxScore":75,"minScore":3,"description":"Mention maintain detail not everybody painting. Time already response yourself next pressure.","estimatedTime":"2 weeks","previewFileId":"f7e51a38-6c23-4a23-9a9d-d992b8cd3d42","createdByUserId":"6427e7f1-f885-402d-9ed6-c3fc79410cd8"}'

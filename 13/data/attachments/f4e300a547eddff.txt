@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjIyLjk3NjAyOSIsInVzZXJfaWQiOiI4OTJiMmZiZS0wODE1LTQ1Y2ItYTk0Ny0yOTdkZTdmM2ZjNmYifQ.1oUn108oASUrDR4iuyDtBphOEN5UaFwagcSjVhN3ek4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chance watch follow end happy senior sometimes.","maxScore":65,"minScore":5,"description":"About really billion more. Board song describe media body peace among. Model piece soldier interesting economy.\nArtist during wrong national. Around necessary sing lay.","estimatedTime":"4 weeks","previewFileId":"edaf97b4-2cbe-45d6-b8d4-1f2d263f9717","createdByUserId":"892b2fbe-0815-45cb-a947-297de7f3fc6f"}'

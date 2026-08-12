@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI2LjY3Njk3OCIsInVzZXJfaWQiOiI4MjQ3ODJjMC0zZmZmLTQ0NjUtODhlMC0yMDU0MzZiZDkxYmUifQ.9dUThIfwrsgFeiVc_v7I55H2-0JpJGtcfv0Hr68oIkg' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Along set century machine boy name.","maxScore":78,"minScore":8,"description":"Stand her election ball. Page idea yet. Thus city write set those.\nDrug great religious everyone now film arrive. Capital out best message.","estimatedTime":"3 weeks","previewFileId":"98245877-5f85-4a95-bd0f-703e00edc338","createdByUserId":"824782c0-3fff-4465-88e0-205436bd91be"}'

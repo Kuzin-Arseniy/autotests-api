@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI1Ljk3NjEzMiIsInVzZXJfaWQiOiI2NjY3NDJhOC1iM2VkLTQ2YzktOTY4Yi01NmU0OTQ1ZWVmM2MifQ.sk_MMZf-cEqJISwE-LikQKED7aqMn-JRKpdRV_YE_lQ' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent leave short down voice.","maxScore":96,"minScore":9,"description":"Space enjoy water church argue exist. Political boy either easy last race.\nYear child knowledge law maintain happen. Tonight drive expect build. Traditional to hair whole particular.","estimatedTime":"1 weeks","previewFileId":"81f0f399-482e-4982-b8f5-13bf698203bb","createdByUserId":"666742a8-b3ed-46c9-968b-56e4945eef3c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI4LjA3OTIyOSIsInVzZXJfaWQiOiJkYWNmNTJjMC1mNjI3LTQxYmQtOWQ5Yy01YjJkY2M5MTg2OTcifQ.1mtxLicOpQFh41XRyB3AapskG0hCjgvsyr5sbi4e4ms' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above throughout true number sure.","courseId":"83926a15-b21e-46b3-a3e4-00cf6b07cfea","maxScore":80,"minScore":26,"orderIndex":44,"description":"Within think huge fire. Sense light save discussion almost on low.\nMust father protect during. Parent usually benefit industry.","estimatedTime":"6 weeks"}'

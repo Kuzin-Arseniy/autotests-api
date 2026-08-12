@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI4LjA3OTIyOSIsInVzZXJfaWQiOiJkYWNmNTJjMC1mNjI3LTQxYmQtOWQ5Yy01YjJkY2M5MTg2OTcifQ.1mtxLicOpQFh41XRyB3AapskG0hCjgvsyr5sbi4e4ms' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box bill heavy after degree.","maxScore":71,"minScore":26,"description":"Provide offer rock.\nHour school eight. Field least put scene ago here similar. Plan different others miss physical civil where.\nPlace kid near.","estimatedTime":"2 weeks","previewFileId":"d0519358-85c3-44d7-bd75-7dfdacde4495","createdByUserId":"dacf52c0-f627-41bd-9d9c-5b2dcc918697"}'

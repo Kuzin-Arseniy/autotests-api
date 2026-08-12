@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI3LjMzMjAwNiIsInVzZXJfaWQiOiI3ZThmZTFlMS0yMzU1LTQ0YzgtOTY5Zi04MjU3MjkyMTA3NzQifQ.6kW8SP-l1D-K7bld1_vVL0nXsM77gOltg9Y0lxc7kz8' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider my where outside continue candidate also.","maxScore":80,"minScore":15,"description":"Win usually short which position likely southern. Most son full plant operation everybody. Night central scene catch former pressure add.","estimatedTime":"5 weeks","previewFileId":"8c82acbc-722d-478c-bb1e-51586f96f339","createdByUserId":"7e8fe1e1-2355-44c8-969f-825729210774"}'

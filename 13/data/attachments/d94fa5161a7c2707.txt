@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/13ad80f7-954a-4413-b47d-30b7b56ea27a
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/13ad80f7-954a-4413-b47d-30b7b56ea27a
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 13ad80f7-954a-4413-b47d-30b7b56ea27a
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Inside always put huge mission drop read challenge.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to b26c7b68-e81b-48fb-8447-2dfd61293f3f
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 6
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Different rate spend by structure. Whether already box piece. Especially clearly majority almost.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

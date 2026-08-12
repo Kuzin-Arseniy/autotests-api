@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjQxOjI3LjMzMjAwNiIsInVzZXJfaWQiOiI3ZThmZTFlMS0yMzU1LTQ0YzgtOTY5Zi04MjU3MjkyMTA3NzQifQ.6kW8SP-l1D-K7bld1_vVL0nXsM77gOltg9Y0lxc7kz8' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit a relate discussion beat.","courseId":"1fad9e08-a54b-47c8-a3dc-97468ca310d0","maxScore":57,"minScore":2,"orderIndex":66,"description":"One bring simply however rock value. May allow anything father rather too leader. Sing some mind.","estimatedTime":"4 weeks"}'
