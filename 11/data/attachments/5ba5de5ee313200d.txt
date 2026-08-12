@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjM5LjQ5NjM1NiIsInVzZXJfaWQiOiI0ZDFiNzhkYy00NjQ0LTQ0ODYtYmJmYS03YzU2ZGE5ZDhmMmQifQ.pq-8OlogaHu2D_lTS-8vItISthdrFUjFzkpvpgo6eiA' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine call throughout international.","courseId":"5bf5a6ab-2846-4f20-bc7e-2ec6e5bb5519","maxScore":72,"minScore":9,"orderIndex":71,"description":"Painting participant break. Board do claim fill agent commercial cover capital. Most reflect tree visit could with executive.\nMaybe character because management open article.","estimatedTime":"6 weeks"}'

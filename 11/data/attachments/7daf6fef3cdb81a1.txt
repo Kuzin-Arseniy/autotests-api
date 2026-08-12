@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjQwLjA3ODk0NSIsInVzZXJfaWQiOiI5NGM1NjM0Ny1hNWY0LTQyMGQtYmIyMy03OGQ4ZTU1NTUzMmUifQ.ECcw4UBF-PoNInSpBJmx1YO2yyrnJUrjP1AOV3XwFIQ' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually war whether degree.","maxScore":53,"minScore":24,"description":"Our table election anyone up serve. Where quickly writer person gun certain. Race face despite.","estimatedTime":"10 weeks","previewFileId":"74591a67-df91-4ad6-8eb0-7afc659bfcd0","createdByUserId":"94c56347-a5f4-420d-bb23-78d8e555532e"}'

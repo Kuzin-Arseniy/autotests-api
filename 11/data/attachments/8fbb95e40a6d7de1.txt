@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjQwLjczNzkxNyIsInVzZXJfaWQiOiIzZDE3YmEwYy1jMzYyLTQxMDEtOGI5MC02NTI3ZWJjYWM0MmYifQ.Ko-kBKkSoQ0kTxZjV80yLuL6lnD0Hez9oxtWZLBKM8Q' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve detail able possible.","maxScore":90,"minScore":26,"description":"Model we national me ground late system assume. Item pass stock ask peace. Issue her choose fear affect.\nEither section quite data stay. Wear hit various medical company can left.","estimatedTime":"3 weeks","previewFileId":"13672199-7a2c-4dc3-9a17-0c282e6c7347","createdByUserId":"3d17ba0c-c362-4101-8b90-6527ebcac42f"}'

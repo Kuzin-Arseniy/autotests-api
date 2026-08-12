@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjM3LjQyOTExMCIsInVzZXJfaWQiOiJjNjA3YmY2NC02NmVlLTRlYWEtYjllMy1jZjQyYWNmOGI2YjcifQ.LXdHzckPAZXfWkJw-4oLiQYZq3Cyh-pYsaRVhuKmF_Q' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official why in ago practice phone local.","maxScore":97,"minScore":16,"description":"Move occur power data near campaign.\nMyself blood rate. Include myself determine run. Group sport debate letter yes perform.","estimatedTime":"8 weeks","previewFileId":"933f3a90-7cf4-40b4-b893-7cd06e7b84d3","createdByUserId":"c607bf64-66ee-4eaa-b9e3-cf42acf8b6b7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjM4LjMyMzE4NyIsInVzZXJfaWQiOiI4MmQ1YWIxNC1iZmEyLTQxZTYtODJiNi01YWJhMDQ5NjZlNWIifQ.hJm88JeKA7iledvAleFVbAb4mcdFbD4os9NXsMqV4Ck' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Authority take author poor source.","maxScore":67,"minScore":11,"description":"Same law now together.\nNorth computer choice west international. Affect like bed threat something.\nImpact doctor media black body away. Method plan evening. Effort artist avoid tree reduce.","estimatedTime":"3 weeks","previewFileId":"2006cc94-14ed-44e3-8367-1e7330428159","createdByUserId":"82d5ab14-bfa2-41e6-82b6-5aba04966e5b"}'

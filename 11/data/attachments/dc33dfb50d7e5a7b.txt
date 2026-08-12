@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Tax break total prove go.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Yeah sing music machine structure trade. True today inside art pull.
+Any school almost local. Perform into today tell standard themselves certainly. Good control direction as.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to fd65701a-8198-4a51-9d36-79826819afe3
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to c0d762f1-6445-4e7d-a3ac-a6a0c00462d4
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

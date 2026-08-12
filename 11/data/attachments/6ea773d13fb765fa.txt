@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e111951c-a677-4c49-b0c9-db49a5ed2b20' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjM3LjQyOTExMCIsInVzZXJfaWQiOiJjNjA3YmY2NC02NmVlLTRlYWEtYjllMy1jZjQyYWNmOGI2YjcifQ.LXdHzckPAZXfWkJw-4oLiQYZq3Cyh-pYsaRVhuKmF_Q' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Executive support first baby recent me tough maintain.","maxScore":79,"minScore":10,"description":"Risk here strong security often similar. Through could executive through. Court per include position support.\nLong star herself. Quality for main these different local certainly.","estimatedTime":"1 weeks"}'

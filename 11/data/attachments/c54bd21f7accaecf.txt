@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d320e082-357c-416c-a1d7-a959ba41d0ea' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjQwLjA3ODk0NSIsInVzZXJfaWQiOiI5NGM1NjM0Ny1hNWY0LTQyMGQtYmIyMy03OGQ4ZTU1NTUzMmUifQ.ECcw4UBF-PoNInSpBJmx1YO2yyrnJUrjP1AOV3XwFIQ' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept piece have involve security research.","maxScore":95,"minScore":28,"orderIndex":95,"description":"Themselves commercial increase society course single. Program learn sense issue body red kid myself. Future hot decide until allow authority. Network officer threat because.","estimatedTime":"7 weeks"}'

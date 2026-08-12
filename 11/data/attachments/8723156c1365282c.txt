@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjQyLjAwMzU0MCIsInVzZXJfaWQiOiJhOGI1YWU2Mi0wY2FjLTQyZjgtYmExMS00MTllNzQxYWQ2ZjUifQ._OWLtBVj_JpWx0imK7Oeum-keAB8oUPRC0oCb00JlXY' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive practice analysis sport tough.","maxScore":82,"minScore":23,"description":"Policy tree mean mind leg those high woman. See score television determine teach. Usually yet off kind ask consumer.\nIf parent author long group before college. Year project high involve never.","estimatedTime":"4 weeks","previewFileId":"ef618b00-08c4-4681-8440-e32c43b85321","createdByUserId":"a8b5ae62-0cac-42f8-ba11-419e741ad6f5"}'

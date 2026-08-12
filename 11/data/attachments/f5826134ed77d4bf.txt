@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEyVDA5OjM1OjM4LjkxMjY1MCIsInVzZXJfaWQiOiJjMGQ3NjJmMS02NDQ1LTRlN2QtYTNhYy1hNmEwYzAwNDYyZDQifQ.vI9R6auehG5k7gpfetW_KlOi1FpaTn54Z0MlIlcWqco' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tax break total prove go.","maxScore":68,"minScore":22,"description":"Yeah sing music machine structure trade. True today inside art pull.\nAny school almost local. Perform into today tell standard themselves certainly. Good control direction as.","estimatedTime":"4 weeks","previewFileId":"fd65701a-8198-4a51-9d36-79826819afe3","createdByUserId":"c0d762f1-6445-4e7d-a3ac-a6a0c00462d4"}'
