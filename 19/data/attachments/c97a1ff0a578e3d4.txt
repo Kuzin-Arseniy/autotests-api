@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU5LjY1NjU4MyIsInVzZXJfaWQiOiI2ZmYzNWYyMS1hNTdjLTQ4MGItYjVhNS0xZjc4ODhkNjNkZTIifQ.iRbqOVJvp2m4AyEO0KAYytOB5G7RyX3DfWngV9zQSlc' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough tend specific teach age brother.","maxScore":53,"minScore":14,"description":"Political truth employee state. Team wind respond production organization likely.\nNeed star campaign produce just. Plant likely court return. Else prevent able natural these truth movement.","estimatedTime":"1 weeks","previewFileId":"ca11d198-54e0-4522-9c34-0d9811b61114","createdByUserId":"6ff35f21-a57c-480b-b5a5-1f7888d63de2"}'

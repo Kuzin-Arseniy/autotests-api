@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAyOjAwLjk3MDIwMSIsInVzZXJfaWQiOiJiOWM2Y2ZhNy01YzExLTQxYTgtODgxNi0zZGMwNjQ2N2ZjM2UifQ.mZUJqqQcVvfGRMmVzVsKehJ9jn2DAoztk7-PPCQmEXg' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next fly serve.","maxScore":77,"minScore":29,"description":"See property certainly top put professional whether. Lead part during audience.","estimatedTime":"8 weeks","previewFileId":"8978f986-a298-4283-9fd8-6a2d7a5584b4","createdByUserId":"b9c6cfa7-5c11-41a8-8816-3dc06467fc3e"}'

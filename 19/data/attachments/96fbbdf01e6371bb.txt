@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU5LjY1NjU4MyIsInVzZXJfaWQiOiI2ZmYzNWYyMS1hNTdjLTQ4MGItYjVhNS0xZjc4ODhkNjNkZTIifQ.iRbqOVJvp2m4AyEO0KAYytOB5G7RyX3DfWngV9zQSlc' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meet form move easy laugh.","courseId":"6b22ddcc-ee99-4230-9873-3573535f422d","maxScore":84,"minScore":28,"orderIndex":66,"description":"Study so office increase skin. Church work green participant hospital. Speak his stay get company.","estimatedTime":"9 weeks"}'

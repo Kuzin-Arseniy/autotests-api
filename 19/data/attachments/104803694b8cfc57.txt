@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAyOjAwLjY2MjIxNyIsInVzZXJfaWQiOiJlMGViYjMxMS03N2QwLTQ1NGYtYmU3OC05ODk0ODM0YTBkYWEifQ.Ipx_fo63GpX8edx47pE4Jp_ddKpmnEmGpmQVXlX1Z2g' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite let wife ever.","maxScore":79,"minScore":17,"description":"Economic speak high really. And measure do will west list teacher.\nLand against various offer scientist late decision. Cut over behind. Special tend financial world.","estimatedTime":"10 weeks","previewFileId":"d4359296-7f2c-4dc6-9bfc-121cd0b0c8c6","createdByUserId":"e0ebb311-77d0-454f-be78-9894834a0daa"}'

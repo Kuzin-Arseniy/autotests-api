@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU5LjM0OTI0NiIsInVzZXJfaWQiOiI0YmY5ZjcyZi1jMjFhLTRlZjAtOTdiMy03MzQzMGI4MTY4ODEifQ.JwAK8l2BvM_KpwGyhG_dix-UFjA52LFpoLBrtfjfv4o' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General increase establish more.","courseId":"2ac64efb-5adf-4397-b3bf-edd22c3e6896","maxScore":54,"minScore":9,"orderIndex":63,"description":"Into save break hope. Same hard person wall glass look need. Each worry item finally whose agree.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU4LjM3MDM5NSIsInVzZXJfaWQiOiI0OTAxZDcwYi0xN2E5LTRmOGItODgyYi04Y2Q4M2JmYmM1YzcifQ.zNp9tajuonpBKwjIHcEkAuYv36dRJbpD6bSE1UY5PYQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Something myself now provide apply.","maxScore":79,"minScore":9,"description":"Agree relationship card decision hope pick.\nWest purpose able consider space. Part religious ability senior message.","estimatedTime":"9 weeks","previewFileId":"0fe7cf8f-ad09-4d9e-99d5-28f89055451d","createdByUserId":"4901d70b-17a9-4f8b-882b-8cd83bfbc5c7"}'

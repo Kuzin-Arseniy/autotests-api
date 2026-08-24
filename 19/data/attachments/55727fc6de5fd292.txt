@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/dd139337-ab26-4752-aa3d-dc167dbb5844' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU2LjcxOTMyOCIsInVzZXJfaWQiOiIzYjkwZWViNy00ZTYxLTQ3YzItOGIwMC0yYjgzMzU3YmM4MjEifQ.C8YOfCcjc7qT_6EbLgYBv3EKN8540KAw8Gv-3nMsZdY' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His play sit education form Congress she.","maxScore":57,"minScore":27,"description":"Education do leave. Economic right west decision. See part character eye.\nBegin happen several activity board relate. Hold whom include majority charge. Office Congress method seat.","estimatedTime":"4 weeks"}'

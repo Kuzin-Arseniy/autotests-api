@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAxOjU2LjcxOTMyOCIsInVzZXJfaWQiOiIzYjkwZWViNy00ZTYxLTQ3YzItOGIwMC0yYjgzMzU3YmM4MjEifQ.C8YOfCcjc7qT_6EbLgYBv3EKN8540KAw8Gv-3nMsZdY' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker customer international avoid.","maxScore":93,"minScore":21,"description":"College door administration economy skill anything process. Fish coach blue information become plan stop. Fine reason do end.\nSuccessful defense pick sure allow shake improve. Such later cost field.","estimatedTime":"10 weeks","previewFileId":"18b31dae-8f26-4b3b-8e33-7ab685d11186","createdByUserId":"3b90eeb7-4e61-47c2-8b00-2b83357bc821"}'

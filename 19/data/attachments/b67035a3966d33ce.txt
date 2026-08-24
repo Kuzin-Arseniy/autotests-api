@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjAyOjAwLjY2MjIxNyIsInVzZXJfaWQiOiJlMGViYjMxMS03N2QwLTQ1NGYtYmU3OC05ODk0ODM0YTBkYWEifQ.Ipx_fo63GpX8edx47pE4Jp_ddKpmnEmGpmQVXlX1Z2g' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect both be real analysis prove claim.","courseId":"6eb4385b-c8dd-4928-9d46-d5cb5d8383e8","maxScore":100,"minScore":1,"orderIndex":98,"description":"Manager service movement management people. Indicate others realize laugh care again know minute. Media involve from car.","estimatedTime":"7 weeks"}'

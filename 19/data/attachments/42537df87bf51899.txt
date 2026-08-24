@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/0d170e80-b9fe-45b0-8625-f6aaf05557e1
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/0d170e80-b9fe-45b0-8625-f6aaf05557e1
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 0d170e80-b9fe-45b0-8625-f6aaf05557e1
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Effect both be real analysis prove claim.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 6eb4385b-c8dd-4928-9d46-d5cb5d8383e8
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 100
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 98
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Manager service movement management people. Indicate others realize laugh care again know minute. Media involve from car.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
