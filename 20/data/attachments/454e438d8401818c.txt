@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE2LjM5NzQ2MyIsInVzZXJfaWQiOiIwOTU1ODk4My00YWQ2LTQyZWEtOTk5MC0yODAzNjcyYWI5ZjMifQ.nuow96yqKEQF3b-quNptky06PBx2ivLAYeKSTLd5WJw' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production tend late rock this their.","maxScore":95,"minScore":13,"description":"Probably economic fear thus thousand. Under marriage necessary per whom dinner black.","estimatedTime":"9 weeks","previewFileId":"517ed105-f922-4581-bc1c-fd41539bc5eb","createdByUserId":"09558983-4ad6-42ea-9990-2803672ab9f3"}'

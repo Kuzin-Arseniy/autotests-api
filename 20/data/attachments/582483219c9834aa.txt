@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE1LjE2ODcxMyIsInVzZXJfaWQiOiIwMGY5MTYyNi1jODg1LTRhNjktOWU4OC0xYWRhYTAyYmJiMDAifQ.q_BpAKAb3UKGm5WWIul_kCIvsYqspX1yyuNFg3MEnYk' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five answer sound treat consumer ten across.","maxScore":69,"minScore":10,"description":"Concern quickly top eight billion model well. Central agreement later modern rest practice. Community industry claim professor surface.","estimatedTime":"6 weeks","previewFileId":"89a88791-3147-463d-9d44-a0f4cb1ad02a","createdByUserId":"00f91626-c885-4a69-9e88-1adaa02bbb00"}'

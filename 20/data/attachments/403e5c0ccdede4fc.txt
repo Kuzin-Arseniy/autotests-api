@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjEzLjM0NDU3OSIsInVzZXJfaWQiOiIwY2JlNzlhMC0yNjdiLTQ5YzgtYTVkNy1kMTAxMWUxYzcxZTYifQ.Au3X_DzB1gMzDfNmqxZJDAWRMPk26wQFleHsYA0NUac' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Part later billion learn.","maxScore":96,"minScore":6,"description":"Someone paper moment safe girl those figure scene. Interest until store point carry us. Hotel race force base.","estimatedTime":"9 weeks","previewFileId":"2e3f5b5a-fa78-4799-83f1-482f243ed27e","createdByUserId":"0cbe79a0-267b-49c8-a5d7-d1011e1c71e6"}'

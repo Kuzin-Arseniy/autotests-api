@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjEyLjc2NjA3MCIsInVzZXJfaWQiOiJjMDkzMWFjYi0yZGY4LTRhMWEtOTFjNy1lOTdhNmIzN2I0YzEifQ.KdAgCb0xdZiahT0Dd8fPxIddqJxoVYykwQ7BcHumpx4' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Former game personal should different mother.","maxScore":51,"minScore":21,"description":"Specific throughout like organization town smile current. Individual military school Congress media meet structure man. Baby whole sister town else.","estimatedTime":"1 weeks","previewFileId":"fc246cfd-6d49-405e-8c26-fa65e2e0b84b","createdByUserId":"c0931acb-2df8-4a1a-91c7-e97a6b37b4c1"}'

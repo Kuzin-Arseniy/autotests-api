@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjEzLjk5MjA5NyIsInVzZXJfaWQiOiIwYzE2ZjExOC05M2ExLTQ4YmMtODc1ZS1iM2YzZjlkYWY2ZTMifQ.F4hN4UC9XwBVb9gpnenJG5FeRjwELa1BBFdKWtzK2MY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit what learn already.","maxScore":61,"minScore":18,"description":"Worker exactly friend party upon new. Meeting try agent office movement third same office.\nActually space officer continue. Specific scene first partner good camera surface them.","estimatedTime":"2 weeks","previewFileId":"d78188ab-44ba-4228-8919-4b29f94efbc5","createdByUserId":"0c16f118-93a1-48bc-875e-b3f3f9daf6e3"}'

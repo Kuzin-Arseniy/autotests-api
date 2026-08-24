@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE1Ljc1MDEwNyIsInVzZXJfaWQiOiI5ZTZiNzQzYy0yYzM4LTQyMDctOTI1ZC02MThhM2RkMDUyNWQifQ.C4ZvKqwY-_8TrPJ6jPTP7aX5-MFvnGxCAkc7DL5sUK0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day admit goal.","courseId":"ce49f530-5d5f-4a82-ac0c-c9f861fbac1e","maxScore":84,"minScore":24,"orderIndex":1,"description":"Notice send hard agency anything recent note. Rest best adult director bad center art.\nSomeone receive high race fight. To professor continue company tonight little. Store candidate alone hope talk.","estimatedTime":"6 weeks"}'

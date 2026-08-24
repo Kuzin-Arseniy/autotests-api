@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE0LjU3ODY5NiIsInVzZXJfaWQiOiI1YzJiZjU1ZS0wOTgzLTQ3OGUtOTg1OC03ODBlYTc2MGMwZDUifQ.Yg0YFZKdogkfgozbgNAcS9RmfADdGWCVPf87QOQtCFo' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister might new car measure history manage.","maxScore":54,"minScore":30,"description":"Business opportunity while. Red another lot sort so board.\nLaw indeed I key other determine. Pick force probably thousand company each sort.","estimatedTime":"4 weeks","previewFileId":"a8ab6b3b-574c-4641-8ff9-3f9c77d40f6e","createdByUserId":"5c2bf55e-0983-478e-9858-780ea760c0d5"}'

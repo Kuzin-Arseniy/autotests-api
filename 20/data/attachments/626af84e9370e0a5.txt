@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE1LjE2ODcxMyIsInVzZXJfaWQiOiIwMGY5MTYyNi1jODg1LTRhNjktOWU4OC0xYWRhYTAyYmJiMDAifQ.q_BpAKAb3UKGm5WWIul_kCIvsYqspX1yyuNFg3MEnYk' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total offer significant about.","courseId":"25471637-270a-4e9b-a720-97c6759a3be6","maxScore":66,"minScore":20,"orderIndex":79,"description":"Foreign process behavior his current thing. Property partner result staff certain piece. Sister him yet discuss spend rise why yet.\nEat window factor little. Sell as sit actually idea.","estimatedTime":"4 weeks"}'

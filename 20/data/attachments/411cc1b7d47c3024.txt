@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjA3OjE1Ljc1MDEwNyIsInVzZXJfaWQiOiI5ZTZiNzQzYy0yYzM4LTQyMDctOTI1ZC02MThhM2RkMDUyNWQifQ.C4ZvKqwY-_8TrPJ6jPTP7aX5-MFvnGxCAkc7DL5sUK0' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock leg I standard recent policy by make.","maxScore":62,"minScore":10,"description":"Bring join would involve suddenly nature receive. When material toward what. Indicate reveal sister indeed.","estimatedTime":"5 weeks","previewFileId":"fcfba059-2eab-42ae-b9d1-0ee8fe393ca4","createdByUserId":"9e6b743c-2c38-4207-925d-618a3dd0525d"}'
