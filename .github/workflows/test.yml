@@ -72,7 +72,7 @@ jobs:
       # 10. Сохраняем историю обратно в кеш
       - name: Cache coverage history
         if: always()
-        uses: action/cache/save@v6
+        uses: actions/cache/save@v6
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
