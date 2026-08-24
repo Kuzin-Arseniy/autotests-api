@@ -1,4 +1,5 @@
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from httpx import Response
 import allure
 from tools.routes import APIRoutes
@@ -14,6 +15,7 @@ class AuthenticationClient(APIClient):
     """
 
     @allure.step("Authenticate user")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
     # Теперь используем pydantic-модель для аннотации
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
@@ -27,6 +29,7 @@ class AuthenticationClient(APIClient):
                          json=request.model_dump(by_alias=True))
 
     @allure.step("Refresh authentication token")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
     # Теперь используем pydantic-модель для аннотации
     def refresh_api(self, request: RefreshTokenRequestSchema) -> Response:
         """

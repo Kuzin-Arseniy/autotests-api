@@ -1,4 +1,5 @@
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from httpx import Response
 import allure
 from tools.routes import APIRoutes
@@ -12,6 +13,7 @@ class PrivateUsersClient(APIClient):
     """
 
     @allure.step("Get user me")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/me")
     def get_user_me_api(self) -> Response:
         """
         Метод получает информацию о клиенте на основе переданного токена в заголовке запроса
@@ -20,6 +22,7 @@ class PrivateUsersClient(APIClient):
         return self.get(f"{APIRoutes.USERS}/me")
 
     @allure.step("Get user by {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def get_user_api(self, user_id: str) -> Response:
         """
         Метод получает информацию о клиенте на основе переданного user_id
@@ -33,6 +36,7 @@ class PrivateUsersClient(APIClient):
         return GetUserResponseSchema.model_validate_json(response.text)
 
     @allure.step("Update user by {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод частично обновляет информацию о клиенте
@@ -43,6 +47,7 @@ class PrivateUsersClient(APIClient):
         return self.patch(f"{APIRoutes.USERS}/{user_id}", json=request.model_dump(by_alias=True))
 
     @allure.step("Delete user by {user_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.USERS}/{{user_id}}")
     def delete_user_api(self, user_id: str) -> Response:
         """
         Метод удаляет информацию о клиенте на основе переданного user_id

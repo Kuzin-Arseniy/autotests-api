@@ -19,7 +19,7 @@ class ExercisesClient(APIClient):
         """
         Метод получения списка заданий по courseId в query params
         :param query: Идентификатор курса
-        :return: Ответ от сревера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
@@ -32,7 +32,7 @@ class ExercisesClient(APIClient):
         """
         Метод получения информации о задании по exercise_id
         :param exercise_id: Идентификатор курса
-        :return: Ответ от сревера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
@@ -45,7 +45,7 @@ class ExercisesClient(APIClient):
         """
         Метод создания задания
         :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime
-        :return: Ответ от сревера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
@@ -59,7 +59,7 @@ class ExercisesClient(APIClient):
         Метод обновления данных задания
         :param request: Словарь с title, minScore, maxScore, orderIndex, description, estimatedTime
         :param exercise_id: Идентификатор задания
-        :return: Ответ от сревера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
 
@@ -72,7 +72,7 @@ class ExercisesClient(APIClient):
         """
         Метод удаления задания
         :param exercise_id: Идентификатор задания
-        :return: Ответ от сревера в виде объекта httpx.Response
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
