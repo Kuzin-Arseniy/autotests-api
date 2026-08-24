@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQzLjQ1ODI0NiIsInVzZXJfaWQiOiJlZDBiOGI3MC0xM2VlLTQwMTItOGY3Ni1lOTVkY2JlMjdiMTMifQ.TV6bCHotvUyNz8lrQgM5itf-xfZnq3KGaftOF7lmOHc' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career religious decision item.","maxScore":90,"minScore":18,"description":"Skill development available hold world receive research who. Base father get anyone decade.\nWhat store democratic. War character door TV chance office sea free.","estimatedTime":"7 weeks","previewFileId":"afe43d41-cdb4-4490-88ab-cb9dcf146455","createdByUserId":"ed0b8b70-13ee-4012-8f76-e95dcbe27b13"}'

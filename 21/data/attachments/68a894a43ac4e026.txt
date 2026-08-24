@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/12557c55-19a8-4eef-911a-63a8096b77c3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQwLjg2MjIzMiIsInVzZXJfaWQiOiI0YjIyNmUyNi1hYmU5LTQ5NmYtODhjOS02YmIyZDY1OTllYzYifQ.QrJcGGmev93psBXKL4vQLk-xGhxgU29Q_Ho5zX9UmCM' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek also participant investment serve education.","maxScore":58,"minScore":5,"description":"Debate husband home throw. Decade pass cause various huge religious class language.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQwLjg2MjIzMiIsInVzZXJfaWQiOiI0YjIyNmUyNi1hYmU5LTQ5NmYtODhjOS02YmIyZDY1OTllYzYifQ.QrJcGGmev93psBXKL4vQLk-xGhxgU29Q_Ho5zX9UmCM' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example white finish outside rule type actually.","maxScore":51,"minScore":12,"description":"No through board enough particularly particularly. Appear heavy why by benefit network.\nManagement study military produce treatment. Music house animal discussion hope play skill.","estimatedTime":"7 weeks","previewFileId":"c1da66af-c089-40c0-84ca-64aec9b33632","createdByUserId":"4b226e26-abe9-496f-88c9-6bb2d6599ec6"}'

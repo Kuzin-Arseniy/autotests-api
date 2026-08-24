@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQ0Ljg0MTA3MSIsInVzZXJfaWQiOiJiODY4M2Y1Ny0zOGRlLTRhMzItODFlZi1mMmM4MWUwMTgzOTUifQ.Vj7nZaB6yxjZan8Gn1GqBMrY86KtdbmOpMJh8SRtrGM' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be quite thus sort reduce.","courseId":"537c9eb3-9d90-4895-a0bc-5110eb590a2a","maxScore":52,"minScore":27,"orderIndex":35,"description":"Involve piece people agent we. Series focus usually any wear assume. Particularly stage international green yes.\nFeeling party today imagine as whether concern.\nThose save subject final else citizen.","estimatedTime":"7 weeks"}'

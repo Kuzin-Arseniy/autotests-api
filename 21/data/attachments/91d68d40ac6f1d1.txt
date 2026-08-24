@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQzLjcxODg0OSIsInVzZXJfaWQiOiJhMmM0MjQyMy1kMzI2LTQzZTQtYmJhMy02NjJjNjQ4NTBjNTUifQ.47O4qCmOZ5YE9VTXh8GJzCy6wV8wNAcbELAd9zIX__k' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best manager campaign scientist answer.","maxScore":96,"minScore":12,"description":"Space example agreement question production between. Left loss knowledge cell west for bank current.","estimatedTime":"8 weeks","previewFileId":"b4247853-b282-4af4-9147-e7424f398aa8","createdByUserId":"a2c42423-d326-43e4-bba3-662c64850c55"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQ2LjE2NjAxMCIsInVzZXJfaWQiOiI4ZWMxNWMyNC00ZDJhLTQxNzYtOWVhMy0zODY4OTBhNjY2YTEifQ._SBd-Ca_MYeCVmeA1_jPBQSQ0yek1a4rgMH_8ZEJHWQ' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer he sell tax.","maxScore":88,"minScore":30,"description":"Today pass tree newspaper trip. Charge choose despite sport act continue interest.","estimatedTime":"4 weeks","previewFileId":"b14be8dd-6361-4485-a68d-7cf28873ca61","createdByUserId":"8ec15c24-4d2a-4176-9ea3-386890a666a1"}'

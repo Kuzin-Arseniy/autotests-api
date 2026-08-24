@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c2617fb3-ae62-4afc-81ed-95218b224ff5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQzLjcxODg0OSIsInVzZXJfaWQiOiJhMmM0MjQyMy1kMzI2LTQzZTQtYmJhMy02NjJjNjQ4NTBjNTUifQ.47O4qCmOZ5YE9VTXh8GJzCy6wV8wNAcbELAd9zIX__k' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item decide recognize city.","maxScore":73,"minScore":24,"orderIndex":30,"description":"Move set start. Cut maintain experience call dog sing improve.\nDrug production really science he wonder watch study. Pick son clear along everything.","estimatedTime":"6 weeks"}'

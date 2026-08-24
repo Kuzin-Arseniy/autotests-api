@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE2OjE5OjQ1LjEwNTI5NCIsInVzZXJfaWQiOiJlMjU3NzJhYS00YzhlLTQyYzAtYjhkMC02Yjg4NDM0NTQ0NGIifQ.14otzzPrPdXRrl7VqwHkA9d3tgyWI8Mkuv76DdDgeuw' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant method network ten allow.","maxScore":94,"minScore":15,"description":"Indeed rest fill learn ready floor. Matter institution simply song hospital difficult serve.\nInvestment hour along board treatment attack. Buy stage land. Political interview these.","estimatedTime":"5 weeks","previewFileId":"b4cf5488-881e-4672-a367-8c008899a210","createdByUserId":"e25772aa-4c8e-42c0-b8d0-6b884345444b"}'
