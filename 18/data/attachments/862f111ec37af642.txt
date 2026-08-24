@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/709c3181-ec70-4dde-a134-b6b530591b3d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjQ3LjQzNDg3NCIsInVzZXJfaWQiOiI1OTg0M2MyMC04Y2EwLTQyZWQtYTkyNi04OTUxYTVlOTY4ZDIifQ.HNM5tiAo_HwjvsiHeWH6h6tgOS8JOT5D1k0J1jBwID0' \
+  -H 'content-length: 196' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star require college speak I respond discussion.","maxScore":58,"minScore":3,"description":"Music week through economic city. Under day beyond partner myself.","estimatedTime":"9 weeks"}'

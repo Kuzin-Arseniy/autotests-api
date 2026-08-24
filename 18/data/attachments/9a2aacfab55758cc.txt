@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjQ3LjQzNDg3NCIsInVzZXJfaWQiOiI1OTg0M2MyMC04Y2EwLTQyZWQtYTkyNi04OTUxYTVlOTY4ZDIifQ.HNM5tiAo_HwjvsiHeWH6h6tgOS8JOT5D1k0J1jBwID0' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture agree sign threat.","maxScore":56,"minScore":22,"description":"Great teacher perhaps. Free center law turn building nearly front relationship.\nSmall happy cut matter thank newspaper newspaper summer. Argue ask together which position toward.","estimatedTime":"5 weeks","previewFileId":"50dcd5f9-8301-44aa-a0ab-6354bc7798e8","createdByUserId":"59843c20-8ca0-42ed-a926-8951a5e968d2"}'

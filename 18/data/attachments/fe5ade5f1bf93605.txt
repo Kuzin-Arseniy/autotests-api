@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjUwLjM3OTA2NiIsInVzZXJfaWQiOiIwN2E1MDM3OC0yMDgyLTRjOWEtOTdjNC02OWQ0NDNiMGU4MDQifQ.Bi46iW2jcbzfKI_F56apCMiAuhoNCPKCT8-ITm-cm5k' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring appear simple start site.","maxScore":78,"minScore":17,"description":"Heart she look president example reason. Every result interview southern process can consider present. Light guess recent six stage.\nKnowledge network try because fact police.","estimatedTime":"8 weeks","previewFileId":"f2c70588-f607-4708-80b9-689c4ef405c1","createdByUserId":"07a50378-2082-4c9a-97c4-69d443b0e804"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjUwLjM3OTA2NiIsInVzZXJfaWQiOiIwN2E1MDM3OC0yMDgyLTRjOWEtOTdjNC02OWQ0NDNiMGU4MDQifQ.Bi46iW2jcbzfKI_F56apCMiAuhoNCPKCT8-ITm-cm5k' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well huge economy main up.","courseId":"a958224e-5eb1-4fc4-ae00-7aaa15ffe278","maxScore":68,"minScore":5,"orderIndex":51,"description":"Tough benefit fine rest himself. Mention sound measure own fill heart wall. Foot man hold most theory close before debate.","estimatedTime":"8 weeks"}'

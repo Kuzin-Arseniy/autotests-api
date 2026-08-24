@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjUxLjc0MzE4NSIsInVzZXJfaWQiOiI1YmY0ZTRjMC0yNmY3LTQ5MzUtYWNkYS03MmNiZmQwYzZiOGMifQ.6gp-xHlK0jatgEs25w9QVc9fjQoKYytdatIOxUKj2AU' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His necessary party above.","maxScore":84,"minScore":3,"description":"Third agreement voice. Computer dog mention later.\nLaugh old forward success. Region participant account clearly tax remain weight serious. Audience current in child.","estimatedTime":"1 weeks","previewFileId":"c33c38dd-d52b-4f99-91ba-9af43037e21f","createdByUserId":"5bf4e4c0-26f7-4935-acda-72cbfd0c6b8c"}'

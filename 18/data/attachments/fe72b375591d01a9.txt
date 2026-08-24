@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjQ5LjA4MDA4NSIsInVzZXJfaWQiOiI5YzZhNjdjZC0xZTg5LTQ5NDgtYThlYi1iYzQ3NTE2ZDgzMjcifQ.MoavPRa83wA-ZPIi01c6tZmYaXxK_vKqjqEmb07NIMg' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair note time lot environmental guy relate.","maxScore":77,"minScore":14,"description":"Simple pay can account leave recent test. Senior main bill art career reach. Material guy society you.","estimatedTime":"8 weeks","previewFileId":"7f9b051d-572e-4571-9f24-5f1379742b1a","createdByUserId":"9c6a67cd-1e89-4948-a8eb-bc47516d8327"}'

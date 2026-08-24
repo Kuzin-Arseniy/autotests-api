@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Hair note time lot environmental guy relate.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Simple pay can account leave recent test. Senior main bill art career reach. Material guy society you.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to 7f9b051d-572e-4571-9f24-5f1379742b1a
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to 9c6a67cd-1e89-4948-a8eb-bc47516d8327
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

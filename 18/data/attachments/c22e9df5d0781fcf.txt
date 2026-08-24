@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjQ5LjcyNTU3NCIsInVzZXJfaWQiOiIzNTQ0ZmJjNy1mOGUzLTQ5Y2EtOTc2NC00ODFkNjU2MDRiNDYifQ.yjndPtGNEtS-iDy2n5isgWtlGcsXKqhcZgCOj7WeMDw' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foreign home nor old clearly energy.","maxScore":90,"minScore":13,"description":"Myself question question may social fast. Well magazine know. Training great change act yet worry.\nFinish nice laugh either power. Safe audience sort form company animal.","estimatedTime":"4 weeks","previewFileId":"8862481a-9d48-482a-9b3e-1cf71ee005dd","createdByUserId":"3544fbc7-f8e3-49ca-9764-481d65604b46"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjUxLjc0MzE4NSIsInVzZXJfaWQiOiI1YmY0ZTRjMC0yNmY3LTQ5MzUtYWNkYS03MmNiZmQwYzZiOGMifQ.6gp-xHlK0jatgEs25w9QVc9fjQoKYytdatIOxUKj2AU' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit cup garden weight condition include want finally.","courseId":"fac653df-a4c3-4119-84af-46b69104a89b","maxScore":54,"minScore":14,"orderIndex":29,"description":"Floor speak federal hospital boy my employee. Organization onto second official.\nInterest fine dream. Most campaign industry success stuff. Occur recently nation share. Us board official professor.","estimatedTime":"7 weeks"}'

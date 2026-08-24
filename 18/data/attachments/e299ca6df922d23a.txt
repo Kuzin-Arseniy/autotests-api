@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDE1OjU5OjQ4LjQyNTY1MSIsInVzZXJfaWQiOiIwYWQyMjYzYS02Njk1LTQ3NjgtYjllMC03MTAzNzNmM2IzYzEifQ.JodT7qq9WFjj4NtSnaZCoSdzXrkzHbQS7NXJ3yIyzRw' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Smile year range level modern entire.","maxScore":87,"minScore":12,"description":"Feeling manage night attack evening that economy carry. Approach by front whatever from former. Concern either fear month enough.","estimatedTime":"4 weeks","previewFileId":"961d391b-3318-433d-997f-87c933d6890d","createdByUserId":"0ad2263a-6695-4768-b9e0-710373f3b3c1"}'
