@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjExLjI0ODYyMyIsInVzZXJfaWQiOiJlYzZiZWMxNS1mOTA0LTQ1MmEtOTdmNC04Nzk2MjE4YmE2MDIifQ._dyLfkBRBLO3Ruu-_DhKatD1P7BgfKix6E4XuaLdWfs' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor human another deep senior soon.","maxScore":80,"minScore":15,"description":"Out write serve. Suddenly thus full medical two structure interview.\nForget claim customer heavy anyone. Across wrong say. Whether deal world art ready contain. Trouble reason mouth thing.","estimatedTime":"1 weeks","previewFileId":"4cfd3498-1b3e-4e3c-85a8-f54ef9f8668a","createdByUserId":"ec6bec15-f904-452a-97f4-8796218ba602"}'

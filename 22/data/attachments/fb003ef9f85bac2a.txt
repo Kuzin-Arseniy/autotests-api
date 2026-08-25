@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjA3Ljk0NjE5NiIsInVzZXJfaWQiOiJjOTJhNmQyYi1mZWQzLTRhZDgtYmJhOS03NmFhMzllNmM2MzEifQ.Cw1Z1419RYmwZDauIdTvfKnQy5nnNKreBvXZUqiHppM' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Peace situation establish experience them against.","maxScore":55,"minScore":25,"description":"Money often appear despite fine good. Everybody role something hear.\nTeam film already current try second. Evening prepare garden charge carry.","estimatedTime":"7 weeks","previewFileId":"a6d5fb3e-cbb3-4d33-8449-ea8ca9221129","createdByUserId":"c92a6d2b-fed3-4ad8-bba9-76aa39e6c631"}'

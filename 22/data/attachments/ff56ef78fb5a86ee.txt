@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjEwLjAyNDIyMiIsInVzZXJfaWQiOiIzMjZmZjZhYS0xMDk0LTQwZTAtODgwOC1hMmJiYThhN2NmZmIifQ.tz03-joiMe-9eeUQkDc64au4Fz6NoJoDrJninToOQEc' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull reveal leader know hour east once.","maxScore":60,"minScore":21,"description":"Somebody travel thank real. Learn travel other. Site look standard then total.\nPosition test music large father.","estimatedTime":"6 weeks","previewFileId":"5389583f-2978-45ba-828f-c556255cc56f","createdByUserId":"326ff6aa-1094-40e0-8808-a2bba8a7cffb"}'

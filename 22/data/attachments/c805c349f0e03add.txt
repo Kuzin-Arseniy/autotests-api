@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjExLjg2MTIwNCIsInVzZXJfaWQiOiJjMmM2MTBiOC05MTVhLTQ4NTMtYTdlZS1lODA5ZGM0YTQyZTcifQ.D6wCIIUKRKYugPVNgnTHbQbGeFaZoZ7mR_ORYcTe_ZI' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item management give present.","courseId":"d6fcf315-f740-4a70-b3db-bea110ed49b0","maxScore":74,"minScore":1,"orderIndex":18,"description":"Arm thousand thousand over from hear fill. Require keep medical per. Control hard research prove pay.","estimatedTime":"6 weeks"}'

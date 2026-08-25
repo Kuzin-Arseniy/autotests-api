@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjA5LjQzOTQ1OSIsInVzZXJfaWQiOiIyNWMyZDk1OC05ZjRhLTQ4MDMtYTQ0Zi1lOTc4NDMwM2Q2MDgifQ.855-yOi_TuVSzR61kLJVOj4Dfut5CdcK1U9aA0pytmM' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality financial worry bad.","maxScore":83,"minScore":11,"description":"Wall four worry among maybe. Behavior include size.\nWhole up traditional where last. Now girl guy event less cultural. Politics finally south drive wife store environmental.\nCamera up look perhaps.","estimatedTime":"7 weeks","previewFileId":"c19f293e-4f05-461b-8311-220ec191d067","createdByUserId":"25c2d958-9f4a-4803-a44f-e9784303d608"}'

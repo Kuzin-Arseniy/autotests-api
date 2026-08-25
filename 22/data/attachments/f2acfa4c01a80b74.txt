@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjEwLjAyNDIyMiIsInVzZXJfaWQiOiIzMjZmZjZhYS0xMDk0LTQwZTAtODgwOC1hMmJiYThhN2NmZmIifQ.tz03-joiMe-9eeUQkDc64au4Fz6NoJoDrJninToOQEc' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know determine ten organization race.","courseId":"7c5922d9-2a0a-4292-a866-aac4e20f4690","maxScore":99,"minScore":4,"orderIndex":69,"description":"Medical easy prevent design relate manage hour. Near while wind Mrs.","estimatedTime":"8 weeks"}'

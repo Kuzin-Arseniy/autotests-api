@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjEwLjYxMzEwNyIsInVzZXJfaWQiOiJjOGZjZDM5MC1kMDg5LTQ3ZDktYTQxMC02NjhlNDYxNWQ3MmMifQ.wLUJu2DKtObNOWsgTw8-y-xDSTnIlaEga-7noDf5fMk' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference page development push each.","courseId":"b6b90437-6f47-4222-972f-0b76f8dd07e1","maxScore":97,"minScore":1,"orderIndex":33,"description":"Step example data sense movie hold. Large direction however pressure dark position road off.\nThey back effect pay bank according really. Fear culture that the.\nOur PM ready. Dog you another not use.","estimatedTime":"7 weeks"}'

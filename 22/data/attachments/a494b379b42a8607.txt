@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI1VDE4OjA2OjEwLjYxMzEwNyIsInVzZXJfaWQiOiJjOGZjZDM5MC1kMDg5LTQ3ZDktYTQxMC02NjhlNDYxNWQ3MmMifQ.wLUJu2DKtObNOWsgTw8-y-xDSTnIlaEga-7noDf5fMk' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None race deal worker exactly center law.","maxScore":99,"minScore":19,"description":"Sometimes everybody indicate share piece may young floor. Section century report yes. Heart culture college parent and get. I method guess interview far.","estimatedTime":"6 weeks","previewFileId":"fa340061-fbb7-43ab-ac2d-3018f6c20005","createdByUserId":"c8fcd390-d089-47d9-a410-668e4615d72c"}'
