@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA0LjExODgwMSIsInVzZXJfaWQiOiI0NmQ5ODE2YS1hMDViLTRhNzEtOGJlNy0xMWI3MWNiYTViYWMifQ.CY-CMWRclegUOqoFiGRqxoZWpKqbYBwJriVibtTvJqk' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But field tend hold fast three.","maxScore":63,"minScore":24,"description":"Value no down but this arrive only. Would option commercial economic room story. Will so build gun cup husband realize.\nBut soon arm human. Safe success whose. Run house provide turn laugh.","estimatedTime":"7 weeks","previewFileId":"540225c2-c5e4-41eb-bda6-d85b2ef18919","createdByUserId":"46d9816a-a05b-4a71-8be7-11b71cba5bac"}'

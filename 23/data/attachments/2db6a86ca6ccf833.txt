@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA2LjU2NzQ5NyIsInVzZXJfaWQiOiI4YjljZDY0OS0wZDYxLTRhNzItOTMwOS1mNWE2NWZjMDFjYjQifQ.T-gPgqHQfxAOCF1U_XwLgcfxxHeI8xqm5Zj5cwKSW4Q' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology production third start or subject.","maxScore":90,"minScore":29,"description":"Walk store miss front keep other. Material social little network growth lose.\nBig stand say home receive soldier personal either. Box important sort fly.","estimatedTime":"7 weeks","previewFileId":"3f9ef865-5f0d-4979-bd0f-450caea7e4e5","createdByUserId":"8b9cd649-0d61-4a72-9309-f5a65fc01cb4"}'

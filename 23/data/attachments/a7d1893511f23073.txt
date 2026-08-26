@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA0Ljc2MjEwOCIsInVzZXJfaWQiOiIwYTRmYjRiZC03MmQ1LTQzNDktYmU1Ni02NTBiZjgxZmQ0NGEifQ.GEe4uf3-ma5q5MetekfVdUA48GTFQVuR3NeNkveJy1E' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband human beyond these.","maxScore":60,"minScore":8,"description":"Candidate professor chair third one. Cover stage focus sing money born.\nStation here pressure still idea carry hand describe. Friend risk rich under other two successful.","estimatedTime":"5 weeks","previewFileId":"9af909dd-422f-40b2-b37b-48dca91ae1b6","createdByUserId":"0a4fb4bd-72d5-4349-be56-650bf81fd44a"}'

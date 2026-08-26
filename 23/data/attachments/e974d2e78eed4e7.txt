@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjAzLjIxNTExNCIsInVzZXJfaWQiOiI3ZmVkM2E0OS1hZmQzLTQzNjYtOWZhOS1hYWMxMDUyZDZjZjUifQ.sRyL2t3ajstX5E3HdYkn9owhw-miXig-miuz7Q382D8' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person pressure generation collection.","maxScore":60,"minScore":8,"description":"Window direction look century. Claim type issue media father Congress degree. Yeah stage leg.\nTalk successful TV wait quality rise keep. Still necessary film important front child.","estimatedTime":"2 weeks","previewFileId":"ba1ad4b9-bd35-425f-8b85-14ff9376f2b5","createdByUserId":"7fed3a49-afd3-4366-9fa9-aac1052d6cf5"}'

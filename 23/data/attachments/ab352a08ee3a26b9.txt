@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA1LjkyNTA5MCIsInVzZXJfaWQiOiI3YzA2OGRjMy0wY2VkLTRmMWItOTNiMy0yZTkyZTZmOWQ0YzUifQ.FtrZ60FBX26ZTbmwshuDxCZUkl305pA4rMALuoZ6yN0' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect film difficult seek no American attack.","maxScore":67,"minScore":2,"description":"Surface film similar star south bill travel. Center model pressure yourself. Some compare stand property fill short.","estimatedTime":"3 weeks","previewFileId":"0dcebd4b-1821-4c52-8dfc-7e19d808f80a","createdByUserId":"7c068dc3-0ced-4f1b-93b3-2e92e6f9d4c5"}'

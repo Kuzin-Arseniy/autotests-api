@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e69fec9a-7bfc-4061-92fc-29b1aa792b16' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjAzLjIxNTExNCIsInVzZXJfaWQiOiI3ZmVkM2E0OS1hZmQzLTQzNjYtOWZhOS1hYWMxMDUyZDZjZjUifQ.sRyL2t3ajstX5E3HdYkn9owhw-miXig-miuz7Q382D8' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen degree Mr win.","maxScore":83,"minScore":4,"description":"Staff listen individual not front both every son. Student specific soldier international before. Try information true could either mention.","estimatedTime":"6 weeks"}'

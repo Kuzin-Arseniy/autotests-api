@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f30e6d21-cb5d-4638-a94a-edd14e7f461f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA1LjkyNTA5MCIsInVzZXJfaWQiOiI3YzA2OGRjMy0wY2VkLTRmMWItOTNiMy0yZTkyZTZmOWQ0YzUifQ.FtrZ60FBX26ZTbmwshuDxCZUkl305pA4rMALuoZ6yN0' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability article suddenly.","maxScore":91,"minScore":15,"orderIndex":21,"description":"Personal design happen quickly. Success east organization play probably purpose. Result soon marriage network.","estimatedTime":"3 weeks"}'

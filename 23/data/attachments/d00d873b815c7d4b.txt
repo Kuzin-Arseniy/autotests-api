@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDA4OjQ0OjA3LjE1MTgxOSIsInVzZXJfaWQiOiJmYzBmOTE5OS0xYTBjLTQzNDQtOWU5MC00ZGI1NTZlOWI0MDMifQ.cF8NzpcUXOPOBuJXymttLx705t5v5ihsVpvYs03Sl5I' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development measure election beyond consider institution.","maxScore":56,"minScore":16,"description":"Stage drive administration cup message physical. Performance piece wind. Ok know rate experience decade. Statement participant country however contain future.","estimatedTime":"8 weeks","previewFileId":"abe5fcee-91b8-42a3-b13b-ea9c986308b5","createdByUserId":"fc0f9199-1a0c-4344-9e90-4db556e9b403"}'
