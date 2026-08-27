@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjA1Ljc5MzUxMiIsInVzZXJfaWQiOiJhNWQ0Y2NhMS1kMTM0LTQzMzgtYTc5YS02YzEwNjMwNGNiNjEifQ.aXYJ4kWn9MCNrpXRgYlxHIrI-Na86Cyp2rQp13IQ9Co' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Data force while try American notice author.","maxScore":65,"minScore":11,"description":"Produce plant each phone offer blue. Dark whether Republican race day. Program card yard situation rich strategy.\nHer whom point stock end data. See will major act try two former.","estimatedTime":"7 weeks","previewFileId":"f5114133-156f-40d9-b436-4de1916a1889","createdByUserId":"a5d4cca1-d134-4338-a79a-6c106304cb61"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjA0LjQ3MDE5OSIsInVzZXJfaWQiOiI3MDVjZDg0ZS04MjAyLTQ0YTctODllMS1mNzQ1ZmQ4ZmU5YTcifQ.tnXrO4BBu4bsavBCxps8CnnTwPp5JBJNJuSIElt_QYU' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle shake collection administration build.","courseId":"0df510c1-cc23-48cf-85df-154222eb238c","maxScore":84,"minScore":28,"orderIndex":65,"description":"Work guess lose central. Act hard behavior like. Happen indicate past economic job learn agreement.","estimatedTime":"7 weeks"}'

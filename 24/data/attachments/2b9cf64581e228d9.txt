@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjAyLjgzNDkwNCIsInVzZXJfaWQiOiJlYjBjNGFhZC0xNDVkLTQ0NWItOTdiYi00N2RkOWZjMTk3NzYifQ.OBOjY6dF8sUdqYwMXh-OTNwtA82tH7e4JCi6hYR-yoY' \
+  -H 'content-length: 448' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Site result any material agreement institution quickly.","maxScore":74,"minScore":4,"description":"Decade need another key. Above draw statement send.\nCause responsibility bank wrong end project. Create cost all of southern experience. Will skin right black. Manage pick pick voice federal school.","estimatedTime":"1 weeks","previewFileId":"43249779-9f08-4c3d-ad53-44538d9b8b57","createdByUserId":"eb0c4aad-145d-445b-97bb-47dd9fc19776"}'

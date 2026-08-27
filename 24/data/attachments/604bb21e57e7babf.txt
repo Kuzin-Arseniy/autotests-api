@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/8f3524fb-f239-4ef7-8883-6a2713b35788
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/8f3524fb-f239-4ef7-8883-6a2713b35788
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 8f3524fb-f239-4ef7-8883-6a2713b35788
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Style four station day in democratic really.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to e3bb1cbc-f3bf-4acf-9d5d-67e3abc0b7fe
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 70
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Development white ahead similar both trial. Customer major space teach get.
+Thing toward month beat than. Dark way chance like.
+Hope middle hear political spring whether have. Much choose arrive.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

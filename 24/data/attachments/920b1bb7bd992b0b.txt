@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjA0LjQ3MDE5OSIsInVzZXJfaWQiOiI3MDVjZDg0ZS04MjAyLTQ0YTctODllMS1mNzQ1ZmQ4ZmU5YTcifQ.tnXrO4BBu4bsavBCxps8CnnTwPp5JBJNJuSIElt_QYU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option brother ask bring discussion.","maxScore":87,"minScore":9,"description":"To century simply reveal among teach main. Media must real first. Member company surface number here defense.","estimatedTime":"10 weeks","previewFileId":"e581821a-a347-4224-a01b-c8c87d20bed4","createdByUserId":"705cd84e-8202-44a7-89e1-f745fd8fe9a7"}'

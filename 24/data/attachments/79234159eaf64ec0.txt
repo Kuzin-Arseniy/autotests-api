@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d806f88d-b345-4b80-9272-8b1c9c3ff0b4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjA0Ljc3ODM1MiIsInVzZXJfaWQiOiIxOWFkNGYzNS1kMDRjLTRlNTAtOTQyZi1jZDU5YjkxYTU4NDkifQ.5_AHiVK1DG_w4U9kZGjtlVS_N3kviUvUgZjKttOcldg' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion loss out deal week.","maxScore":93,"minScore":11,"orderIndex":21,"description":"Affect top interesting station. Enter better she newspaper dinner offer. Couple never country.\nUntil appear standard owner government. Light girl world occur attention site.","estimatedTime":"9 weeks"}'

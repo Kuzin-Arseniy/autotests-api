@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/178d1229-5060-47d0-aef1-4d40c19ea03a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjAxLjgzNDU5MSIsInVzZXJfaWQiOiI0NjdmZjExYy1jZmFjLTQwNDEtOWFiNC1jY2RiMjNmMzJkNTMifQ.DKRx3KNmEQ4MFrf4yIkvMCTXdqY0TC13OSSWTP4hiKc' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where sport two ability.","maxScore":59,"minScore":18,"description":"Gas raise share throw trouble head western. Stage only shake natural around.\nAnimal during both hope relate real only. We walk these away miss.","estimatedTime":"2 weeks"}'

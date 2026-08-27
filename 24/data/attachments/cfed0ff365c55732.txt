@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjA3LjE1NTE2MSIsInVzZXJfaWQiOiJiYmE4MDNkMi1kNzc2LTQwNjMtOTAzYS1mMTM1NTc4ZWU0MGMifQ.P6NOYS9bFJWqgZi4XEdgZqJGZ2EESXGXhoEqVMuCJ9I' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe finally resource.","maxScore":89,"minScore":6,"description":"Choice rule all treat. Modern test ten end on. Ever whom their yeah national rather prove allow.\nStreet with such. Fact make method allow suffer contain.","estimatedTime":"6 weeks","previewFileId":"796fa1f8-9814-4da9-a545-4289314e3a52","createdByUserId":"bba803d2-d776-4063-903a-f135578ee40c"}'

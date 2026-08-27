@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI3VDE0OjM3OjAzLjQ4NzI2OSIsInVzZXJfaWQiOiJhYThkYmUyMi0yMDBlLTQyZDYtYjY5NC0wOTI2OWU0YzFkNjUifQ.aY47jabndEuX_I7OPyVJ9umKpgQI0BBw9rz8HeHkY8s' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy quite future peace president level.","maxScore":78,"minScore":18,"description":"News operation personal thing. Conference individual senior alone people. Dream to trial entire red official.\nInterest drug there rich night institution expert. Goal quite economy.","estimatedTime":"5 weeks","previewFileId":"b7806989-2349-4bfc-80b4-e9086aa045a8","createdByUserId":"aa8dbe22-200e-42d6-b694-09269e4c1d65"}'

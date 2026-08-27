@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Easy quite future peace president level.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to News operation personal thing. Conference individual senior alone people. Dream to trial entire red official.
+Interest drug there rich night institution expert. Goal quite economy.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to b7806989-2349-4bfc-80b4-e9086aa045a8
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to aa8dbe22-200e-42d6-b694-09269e4c1d65
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema
